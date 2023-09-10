@@ -2,6 +2,12 @@
 
 print("Immersive Engineering Excavator Script:00 Remove Default Minerals");
 
+/*
+    mods.immersiveengineering.Excavator.removeMineral(String name);
+
+    mods.immersiveengineering.Excavator.removeMineral("Iron Ore");
+*/
+
 //remove default mineral veins
 mods.immersiveengineering.Excavator.removeMineral("Uranium");
 mods.immersiveengineering.Excavator.removeMineral("Nickel");
