@@ -10,6 +10,11 @@ val secondarychance as double = 0.5;
 val betweenchance as double = 0.05;
 val sporadichance as double = 0.02;
 //apatite vein
-mods.immersiveengineering.Excavator.addMineral(
-    "Apatite", 40, 0.005, ["oreApatite", "oreApatite", "oreTricalciumPhosphate", "orePyrochlore"], [primarychance, secondarychance, betweenchance, sporadichance], [0], false
+    mods.immersiveengineering.Excavator.addMineral(
+        "Apatite", 40, 0.005, ["oreApatite", "oreApatite", "oreTricalciumPhosphate", "orePyrochlore"], [primarychance, secondarychance, betweenchance, sporadichance], [0], false
+    );
+
+//cassiterite
+    mods.immersiveengineering.Excavator.addMineral(
+        "Cassiterite", 80, 0.005, ["oreTin", "oreTin", "oreCassiterite", "oreTin"], [primarychance, secondarychance, betweenchance, sporadichance], [0], false
     );
