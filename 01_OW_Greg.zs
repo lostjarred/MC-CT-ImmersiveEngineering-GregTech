@@ -9,12 +9,22 @@ val primarychance as double = 0.10;
 val secondarychance as double = 0.5;
 val betweenchance as double = 0.05;
 val sporadichance as double = 0.02;
+val failchance as double = 0.005;
+
+//mineral weight - gregtech vein weight
 //apatite vein
     mods.immersiveengineering.Excavator.addMineral(
-        "Apatite", 40, 0.005, ["oreApatite", "oreApatite", "oreTricalciumPhosphate", "orePyrochlore"], [primarychance, secondarychance, betweenchance, sporadichance], [0], false
+        "Apatite", 40, failchance, ["oreApatite", "oreApatite", "oreTricalciumPhosphate", "orePyrochlore"], [primarychance, secondarychance, betweenchance, sporadichance], [0], false
     );
 
 //cassiterite
     mods.immersiveengineering.Excavator.addMineral(
-        "Cassiterite", 80, 0.005, ["oreTin", "oreTin", "oreCassiterite", "oreTin"], [primarychance, secondarychance, betweenchance, sporadichance], [0], false
+        "Cassiterite", 80, failchance, ["oreTin", "oreTin", "oreCassiterite", "oreTin"], [primarychance, secondarychance, betweenchance, sporadichance], [0], false
     );
+
+//Coal
+    mods.immersiveengineering.Excavator.addMineral(
+        "Coal", 80, failchance, ["oreCoal", "oreCoal", "oreCoal", "oreCoal"], [primarychance, secondarychance, betweenchance, sporadichance], [0], false
+    );
+
+
