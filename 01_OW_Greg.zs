@@ -104,5 +104,5 @@ val failchance as double = 0.005;
 
 //Redstone
     mods.immersiveengineering.Excavator.addMineral(
-        "Redstone", 20, failchance, ["oreRedstone", "oreRedstone", "oreRuby", "oreCinnabar"], [primarychance, secondarychance, betweenchance, sporadichance], [0], false
+        "Redstone", 60, failchance, ["oreRedstone", "oreRedstone", "oreRuby", "oreCinnabar"], [primarychance, secondarychance, betweenchance, sporadichance], [0], false
     );
