@@ -46,3 +46,8 @@ val failchance as double = 0.005;
     mods.immersiveengineering.Excavator.addMineral(
         "Galena", 40, failchance, ["oreGalena", "oreGalena", "oreSilver", "oreLead"], [primarychance, secondarychance, betweenchance, sporadichance], [0], false
     );
+
+//Garnet Tin
+     mods.immersiveengineering.Excavator.addMineral(
+        "Garnet Tin", 80, failchance, ["oreCassiteriteSand", "oreGarnetSand", "oreAsbestos", "oreDiatomite"], [primarychance, secondarychance, betweenchance, sporadichance], [0], false
+    );
