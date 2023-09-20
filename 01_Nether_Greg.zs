@@ -47,3 +47,7 @@ val stone = "oreNetherrack";
         mods.immersiveengineering.Excavator.addMineral(
             "NRedstone", 60 + addionalweight, failchance, [stone + "Redstone", stone + "Redstone", stone + "Ruby", stone + "Cinnabar"], [primarychance, secondarychance, betweenchance, sporadichance], [1], false
         );
+    //saltpeter
+        mods.immersiveengineering.Excavator.addMineral(
+            "NSaltpeter", 40 + addionalweight, failchance, [stone + "Saltpeter", stone + "Diatomite", stone + "Electrotine", stone + "Alunite"], [primarychance, secondarychance, betweenchance, sporadichance], [1], false
+        );
