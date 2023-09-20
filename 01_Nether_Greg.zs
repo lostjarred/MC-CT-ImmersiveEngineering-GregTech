@@ -19,3 +19,7 @@ val stone = "oreNetherrack";
         mods.immersiveengineering.Excavator.addMineral(
             "NBandedIron", 30 + addionalweight, failchance, [stone + "BrownLimonite", stone + "YellowLimonite", stone + "BandedIron", stone + "Gold"], [primarychance, secondarychance, betweenchance, sporadichance], [1], false
         );
+    //beryllium
+        mods.immersiveengineering.Excavator.addMineral(
+            "NBeryllium", 30 + addionalweight, failchance, [stone + "Beryllium", stone + "Beryllium", stone + "Emerald", stone + "Thorium"], [primarychance, secondarychance, betweenchance, sporadichance], [1], false
+        );
