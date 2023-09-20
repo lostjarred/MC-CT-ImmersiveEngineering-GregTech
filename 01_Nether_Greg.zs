@@ -43,3 +43,7 @@ val stone = "oreNetherrack";
         mods.immersiveengineering.Excavator.addMineral(
             "NNether Quartz", 80 + addionalweight, failchance, [stone + "NetherQuartz", stone + "NetherQuartz", stone + "NetherQuartz", stone + "Quartzite"], [primarychance, secondarychance, betweenchance, sporadichance], [1], false
         );
+    //redstone
+        mods.immersiveengineering.Excavator.addMineral(
+            "NRedstone", 60 + addionalweight, failchance, [stone + "Redstone", stone + "Redstone", stone + "Ruby", stone + "Cinnabar"], [primarychance, secondarychance, betweenchance, sporadichance], [1], false
+        );
