@@ -15,6 +15,7 @@ val addionalweight as int = 200;
 val stone = "ore";
 
 //mineral weight - gregtech vein weight
+// 0 overworld -1 nether 1 end
 //veins
     //apatite vein
         mods.immersiveengineering.Excavator.addMineral(
