@@ -27,3 +27,7 @@ val stone = "oreNetherrack";
         mods.immersiveengineering.Excavator.addMineral(
             "NCertus Quartz", 40 + addionalweight, failchance, [stone + "Quartzite", stone + "CertusQuartz", stone + "CertusQuartz", stone + "Barite"], [primarychance, secondarychance, betweenchance, sporadichance], [1], false
         );
+    //manganese
+        mods.immersiveengineering.Excavator.addMineral(
+            "NManganese", 20 + addionalweight, failchance, [stone + "Grossular", stone + "Pyrolusite", stone + "Pyrochlore", stone + "Tantalite"], [primarychance, secondarychance, betweenchance, sporadichance], [1], false
+        );
