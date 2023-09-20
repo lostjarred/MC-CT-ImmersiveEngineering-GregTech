@@ -6,7 +6,7 @@ print("Immersive Engineering Excavator Script:01 Nether Gregtech");
     mods.immersiveengineering.Excavator.addMineral("Iron Ore", 50, 0.005, ["oreIron", "oreDiamond"], [0.005, 0.01], [1, 0, -1], true);
 */
 val primarychance as double = 0.10;
-val secondarychance as double = 0.5;
+val secondarychance as double = 0.05;
 val betweenchance as double = 0.05;
 val sporadichance as double = 0.02;
 val failchance as double = 0.005;
