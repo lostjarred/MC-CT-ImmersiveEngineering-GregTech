@@ -16,7 +16,11 @@ val stone = "oreEndstone";
 //mineral weight - gregtech vein weight
 // 0 overworld -1 nether 1 end
 //veins
-    //banded iron
+    //Bauxite
         mods.immersiveengineering.Excavator.addMineral(
             "EBauxite", 40 + addionalweight, failchance, [stone + "Bauxite", stone + "Ilmenite", stone + "Aluminium", stone + "Ilmenite"], [primarychance, secondarychance, betweenchance, sporadichance], [1], false
+        );
+    //Magnetite
+        mods.immersiveengineering.Excavator.addMineral(
+            "EMagnetite", 30 + addionalweight, failchance, [stone + "Magnetite", stone + "VanadiumMagnetite", stone + "Chromite", stone + "Gold"], [primarychance, secondarychance, betweenchance, sporadichance], [1], false
         );
