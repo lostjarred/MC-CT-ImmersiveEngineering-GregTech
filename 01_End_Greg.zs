@@ -24,3 +24,7 @@ val stone = "oreEndstone";
         mods.immersiveengineering.Excavator.addMineral(
             "EMagnetite", 30 + addionalweight, failchance, [stone + "Magnetite", stone + "VanadiumMagnetite", stone + "Chromite", stone + "Gold"], [primarychance, secondarychance, betweenchance, sporadichance], [1], false
         );
+    //Naquahdah
+        mods.immersiveengineering.Excavator.addMineral(
+            "ENaquahdah", 30 + addionalweight, failchance, [stone + "Naquadah", stone + "Naquadah", stone + "Naquadah", stone + "Plutonium"], [primarychance, secondarychance, betweenchance, sporadichance], [1], false
+        );
