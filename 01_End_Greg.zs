@@ -36,3 +36,7 @@ val stone = "oreEndstone";
         mods.immersiveengineering.Excavator.addMineral(
             "EScheelite", 20 + addionalweight, failchance, [stone + "Scheelite", stone + "Scheelite", stone + "Tungstate", stone + "Lithium"], [primarychance, secondarychance, betweenchance, sporadichance], [1], false
         );
+    //Sheldonite
+        mods.immersiveengineering.Excavator.addMineral(
+            "EScheelite", 10 + addionalweight, failchance, [stone + "Bornite", stone + "Cooperite", stone + "Platinum", stone + "Palladium"], [primarychance, secondarychance, betweenchance, sporadichance], [1], false
+        );
