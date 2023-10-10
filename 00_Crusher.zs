@@ -36,15 +36,15 @@ print("START: Immersive Engineering Crusher Script:00 Ore Gregtech");
         //ore to crushed ore
             //endstone
                 for ore in endstoneoredict.items {
-                    addCrusher_CrushedOre_Recipe(outputitemstack * (outputammount * 2), ore, secondoutputitemstack);
+                    addCrusher_Recipe(outputitemstack * (outputammount * 2), ore, secondoutputitemstack);
                 }
             //normal
                 for ore in oreoredict.items {
-                    addCrusher_CrushedOre_Recipe(outputitemstack * outputammount, ore, secondoutputitemstack);
+                    addCrusher_Recipe(outputitemstack * outputammount, ore, secondoutputitemstack);
                 }
             //nether
                 for ore in netheroredict.items {
-                    addCrusher_CrushedOre_Recipe(outputitemstack * (outputammount * 2), ore, secondoutputitemstack);
+                    addCrusher_Recipe(outputitemstack * (outputammount * 2), ore, secondoutputitemstack);
                 }
 
         //crushed ore to dust
@@ -68,7 +68,7 @@ print("START: Immersive Engineering Crusher Script:00 Ore Gregtech");
     mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond>, <ore:logWood>, 2048, <minecraft:dirt>);
     mods.immersiveengineering.Crusher.addRecipe(<minecraft:diamond>, <ore:logWood>, 2048, <minecraft:dirt>, 0.5);
 */
-function addCrusher_CrushedOre_Recipe(output as IItemStack, input as IIngredient, secondaryoutput as IItemStack) {
+function addCrusher_Recipe(output as IItemStack, input as IIngredient, secondaryoutput as IItemStack) {
     //secondary output chance
     val chance as double = 0.20;
     //energy cost
