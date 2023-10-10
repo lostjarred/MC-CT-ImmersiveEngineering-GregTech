@@ -1,6 +1,6 @@
 #priority 900
 
-print("Immersive Engineering Excavator Script:01 Nether Gregtech");
+print("START: Immersive Engineering Excavator Script:01 Nether Gregtech");
 /*
     mods.immersiveengineering.Excavator.addMineral(String name, int mineralWeight, double failChance, String[] ores, double[] chances, @Optional int[] dimensionWhitelist, @Optional boolean blacklist)
     mods.immersiveengineering.Excavator.addMineral("Iron Ore", 50, 0.005, ["oreIron", "oreDiamond"], [0.005, 0.01], [1, 0, -1], true);
@@ -64,3 +64,4 @@ val stone = "oreNetherrack";
         mods.immersiveengineering.Excavator.addMineral(
             "NTopaz", (40 + addionalweight), failchance, [stone + "BlueTopaz", stone + "Topaz", stone + "Chalcocite", stone + "Bornite"], [primarychance, secondarychance, betweenchance, sporadichance], [-1], false
         );
+print("END: Immersive Engineering Excavator Script:01 Nether Gregtech");

@@ -1,6 +1,6 @@
 #priority 900
 
-print("Immersive Engineering Excavator Script:01 End Gregtech");
+print("START: Immersive Engineering Excavator Script:01 End Gregtech");
 /*
     mods.immersiveengineering.Excavator.addMineral(String name, int mineralWeight, double failChance, String[] ores, double[] chances, @Optional int[] dimensionWhitelist, @Optional boolean blacklist)
     mods.immersiveengineering.Excavator.addMineral("Iron Ore", 50, 0.005, ["oreIron", "oreDiamond"], [0.005, 0.01], [1, 0, -1], true);
@@ -40,3 +40,4 @@ val stone = "oreEndstone";
         mods.immersiveengineering.Excavator.addMineral(
             "EScheelite", (10 + addionalweight), failchance, [stone + "Bornite", stone + "Cooperite", stone + "Platinum", stone + "Palladium"], [primarychance, secondarychance, betweenchance, sporadichance], [1], false
         );
+print("END: Immersive Engineering Excavator Script:01 End Gregtech");
