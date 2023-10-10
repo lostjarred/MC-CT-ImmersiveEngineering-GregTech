@@ -58,7 +58,66 @@ print("START: Immersive Engineering Crusher Script:00 Ore Gregtech");
     }
 
     function addGemOreProcessing(inputore as string, outputammount as int, secondaryore as string) {
+        /*
+            :TODO: make simpler and merge ?
+            same as above has variables for gems
+            get string for ore, convert to oredict then to itemstack to get all variables needed
+        */
+        //ore stuff
+            //ore oredict names
+                var endstoneorestring = "oreEndstone" + inputore;
+                var overworldorestring = "ore" + inputore;
+                var netherorestring = "oreNetherrack" + inputore;
 
+            //oredicts
+                var endstoneoredict = oreDict.get(endstoneorestring);
+                var oreoredict = oreDict.get(overworldorestring);
+                var netheroredict = oreDict.get(netherorestring);
+        
+        //crushed ore stuff
+            //crushed ore oredict names
+                var crushedorestring = "crushed" + inputore;
+                var dustorestring = "dust" + inputore;
+                var secondaryoreduststring = "dust" + secondaryore;
+            
+            //crushed oredicts
+                var ouputoredict = oreDict.get(crushedorestring);
+                var secondoutputoredict = oreDict.get(secondaryoreduststring);
+            
+            //itemstacks
+                var outputitemstack = ouputoredict.firstItem;
+                var secondoutputitemstack = secondoutputoredict.firstItem;
+        
+        //gem stuff
+            //gem names
+                var secondaryoregemstring = "gem" + secondaryore;
+            //gem oredict
+                var seondgemoutputoredict = oreDict.get(secondaryoregemstring);
+            //gem itemstack
+                var seondgemoutputitemstack = seondgemoutputoredict.firstItem;
+        
+        //ore to crushed ore
+            //endstone
+                for ore in endstoneoredict.items {
+                    addCrusher_Recipe(outputitemstack * (outputammount * 2), ore, seondgemoutputitemstack);
+                }
+            //normal
+                for ore in oreoredict.items {
+                    addCrusher_Recipe(outputitemstack * outputammount, ore, seondgemoutputitemstack);
+                }
+            //nether
+                for ore in netheroredict.items {
+                    addCrusher_Recipe(outputitemstack * (outputammount * 2), ore, seondgemoutputitemstack);
+                }
+
+        //crushed ore to dust
+            //oredicts
+                var ouputoredictdust = oreDict.get(dustorestring);
+                var crushedoreoredict = oreDict.get(crushedorestring);
+
+            //itemstack
+                var outputitemstackdust = ouputoredictdust.firstItem;
+                var crushedoreitemstack = crushedoreoredict.firstItem;
     }
 
 /*
