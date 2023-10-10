@@ -119,6 +119,22 @@ val ore_array_string = [
     "Bastnasite",
     "Pentlandite",
     "Spodumene",
+    "Lepidolite",
+    "GlauconiteSand",
+    "Malachite",
+    "Mica",
+    "Barite",
+    "Alunite",
+    "Talc",
+    "Soapstone",
+    "Kyanite",
+    "Pyrochlore",
+    "Oilsands",
+    "Olivine",
+    "Opal",
+    "Amethyst",
+    "Lapis",
+    "Apatite",
 ] as string[]; 
 
 //for loop for ores
