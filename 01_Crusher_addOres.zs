@@ -132,7 +132,7 @@ function addCrusher_Recipe(output as IItemStack, input as IIngredient, secondary
     val chance as double = 0.20;
     //energy cost
     val energy as int = 2000;
-    print("Add crushing recipe for " + output.commandString + " using " + input.commandString + " with secondary " + secondaryoutput.name);
+    print("Add crushing recipe for " + output.commandString + " using " + input.commandString + " with secondary " + secondaryoutput.commandString);
     mods.immersiveengineering.Crusher.addRecipe(output, input, energy, secondaryoutput, chance);
 }
 
@@ -250,7 +250,7 @@ function addCrusher_Recipe(output as IItemStack, input as IIngredient, secondary
     //scheelite
         addNonGemOreProcessing("Scheelite", 2, "Manganese");
     //sodalite
-        addGemOreProcessing("Sodalite", 12, "lazurite");
+        addGemOreProcessing("Sodalite", 12, "Lazurite");
      //tantalite
         addNonGemOreProcessing("Tantalite", 2, "Manganese");
     //spessartine
