@@ -258,7 +258,7 @@ function addCrusher_Recipe(output as IItemStack, input as IIngredient, secondary
     //sphalerite
         addGemOreProcessing("Sphalerite", 2, "GarnetYellow");
     //stibnite
-        addNonGemOreProcessing("Tantalite", 2, "AntimonyTrioxide");
+        addNonGemOreProcessing("Stibnite", 2, "AntimonyTrioxide");
     //tetrahedrite
         addNonGemOreProcessing("Tetrahedrite", 2, "Antimony");
     //topaz
