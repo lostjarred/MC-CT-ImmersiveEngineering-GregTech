@@ -2,7 +2,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-print("START: Immersive Engineering Crusher Script:00 Ore Gregtech");
+print("START: Immersive Engineering Ore Processing Crusher Script: Gregtech Ore ");
 
 //main functions 
     function addNonGemOreProcessing( inputore as string, outputammount as int, secondaryore as string ) {
@@ -474,4 +474,4 @@ function addCrusher_Recipe(output as IItemStack, input as IIngredient, secondary
 
 
 
-print("END: Immersive Engineering Crusher Script:00 Ore Gregtech");
+print("END: Immersive Engineering Ore Processing Crusher Script: Gregtech Ore ");
