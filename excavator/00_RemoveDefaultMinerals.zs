@@ -1,4 +1,4 @@
-#priority 1000
+#priority 910
 
 print("Immersive Engineering Excavator Script:00 Remove Default Minerals");
 
