@@ -1,5 +1,7 @@
-====--Immersive Enigneering Exxavtor compat--====
-Crafttweaker scripts to add veins to immersive engineering from gregtech ceu
+====--Immersive Enigneering Gregtech compat--====
+Crafttweaker scripts to add recipes from gregtech to immersive engineering
+
+Curent adds the ore veins from gregtech to the excavator
 
 Version 1.12.2
 
