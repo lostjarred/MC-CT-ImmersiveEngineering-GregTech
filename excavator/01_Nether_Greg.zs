@@ -10,7 +10,7 @@ val secondarychance as double = 0.05;
 val betweenchance as double = 0.05;
 val sporadichance as double = 0.02;
 val failchance as double = 0.005;
-val addionalweight as int = 300;
+val addionalweight as int = 0;
 
 val stone = "oreNetherrack";
 //mineral weight - gregtech vein weight
