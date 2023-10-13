@@ -55,6 +55,7 @@ print("START: Immersive Engineering Ore Processing Crusher Script: Gregtech Ore 
             //itemstack
                 var outputitemstackdust = ouputoredictdust.firstItem;
                 var crushedoreitemstack = crushedoreoredict.firstItem;
+            addCrusher_Recipe(outputitemstackdust, crushedoreitemstack, secondoutputitemstack);
     }
 
     function addGemOreProcessing(inputore as string, outputammount as int, secondaryore as string) {
@@ -118,6 +119,7 @@ print("START: Immersive Engineering Ore Processing Crusher Script: Gregtech Ore 
             //itemstack
                 var outputitemstackdust = ouputoredictdust.firstItem;
                 var crushedoreitemstack = crushedoreoredict.firstItem;
+            addCrusher_Recipe(outputitemstackdust, crushedoreitemstack, secondoutputitemstack);
     }
 
 /*
