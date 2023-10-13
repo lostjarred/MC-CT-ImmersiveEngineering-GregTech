@@ -22,7 +22,6 @@ print("START: Immersive Engineering Ore Processing Crusher Script: Gregtech Ore 
         
         //crushed ore oredict names
             var crushedorestring = "crushed" + inputore;
-            var dustorestring = "dust" + inputore;
             var secondaryoreduststring = "dust" + secondaryore;
         
         //crushed oredicts
@@ -48,6 +47,7 @@ print("START: Immersive Engineering Ore Processing Crusher Script: Gregtech Ore 
                 }
 
         //crushed ore to dust
+                var dustorestring = "dustImpure" + inputore;
             //oredicts
                 var ouputoredictdust = oreDict.get(dustorestring);
                 var crushedoreoredict = oreDict.get(crushedorestring);
