@@ -16,4 +16,4 @@ if you want more mineral veins to generate you need to adjust the chance in the 
 910 - Excavator Remove Default veins
 900 - Excavator Add Gregtech Veins
 510 - Crusher Remove Ores
-500 - Crusher Add Ores
+500 - Crusher Add Ores, Bottler Clean Ores
