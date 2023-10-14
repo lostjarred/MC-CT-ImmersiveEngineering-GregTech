@@ -1,7 +1,10 @@
 ====--Immersive Enigneering Gregtech compat--====
 Crafttweaker scripts to add recipes from gregtech to immersive engineering
 
-currently adds the ore veins from gregtech to the excavator
+currently 
+ - adds the ore veins from gregtech to the excavator
+ - add ore to crushed ore, crushed ore to dust to the Crusher
+ - add ablity to use the bottling machine to clean crushed ore and dust
 
 Version 1.12.2
 
