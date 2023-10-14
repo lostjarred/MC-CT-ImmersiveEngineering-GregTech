@@ -347,9 +347,6 @@ function addCrusher_Recipe(output as IItemStack, input as IIngredient, secondary
         addNonGemOreProcessing("Gypsum", 2, "Sulfur");
     //zeolite
         addNonGemOreProcessing("Zeolite", 6, "Calcium");
-    /*
-        :TODO: Gives wrong dust gives clean redstone dust instead of dirty
-    */
     //redstone
         addGemOreProcessing("Redstone", 10, "Cinnabar");
     //electrotine
