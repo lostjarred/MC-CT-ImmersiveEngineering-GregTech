@@ -40,7 +40,7 @@ add_metalpress_plate_recipe(<ore:ingotCopper>, plate);
 plate = utils.getItemstack(<ore:plateGold>);
 add_metalpress_plate_recipe(<ore:ingotGold>, plate);
 
-plate = utils.getItemstack(<ore:plateAluminum>);
+plate = utils.getItemstack(<ore:plateAluminium>);
 add_metalpress_plate_recipe(<ore:ingotAluminum>, plate);
 
 plate = utils.getItemstack(<ore:plateUranium>);
