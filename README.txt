@@ -21,3 +21,8 @@ if you want more mineral veins to generate you need to adjust the chance in the 
 900 - Excavator Add Gregtech Veins
 510 - Crusher Remove Ores, remove metal press plate recipes
 500 - Crusher Add Ores, Bottler Clean Ores, add metal press plate recipes
+
+==-- TODO list --==
+Remove plate recipe using engineer hammer
+Remove Ore Recipes using engineer hammer
+Replace wire replace using snips
