@@ -1,4 +1,4 @@
-#priority 500
+#priority 510
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
@@ -13,6 +13,7 @@ print("START: Immersive Engineering Metal Press: Remove Plates");
         mods.immersiveengineering.MetalPress.removeRecipe(plate);
     }
     val plate_array_item = [
+        <immersiveengineering:metal:34>,
         <immersiveengineering:metal:32>,
         <immersiveengineering:metal:33>,
         <immersiveengineering:metal:31>,
