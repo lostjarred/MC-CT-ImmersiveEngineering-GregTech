@@ -26,3 +26,4 @@ if you want more mineral veins to generate you need to adjust the chance in the 
 Remove plate recipe using engineer hammer
 Remove Ore Recipes using engineer hammer
 Replace wire replace using snips
+Replace <ore:plateAluminum> with <ore:plateAluminium> in recipes
