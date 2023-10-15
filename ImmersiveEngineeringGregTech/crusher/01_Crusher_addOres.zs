@@ -1,6 +1,7 @@
 #priority 500
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import scripts.ImmersiveEngineeringGregTech.Util_Functions as utils;
 
 print("START: Immersive Engineering Ore Processing Crusher Script: Gregtech Ore ");
 
@@ -29,8 +30,8 @@ print("START: Immersive Engineering Ore Processing Crusher Script: Gregtech Ore 
             var secondoutputoredict = oreDict.get(secondaryoreduststring);
         
         //itemstacks
-            var outputitemstack = ouputoredict.firstItem;
-            var secondoutputitemstack = secondoutputoredict.firstItem;
+            var outputitemstack = utils.getItemstack(ouputoredict);
+            var secondoutputitemstack = utils.getItemstack(secondoutputoredict);
         
         //ore to crushed ore
             //endstone
@@ -53,8 +54,8 @@ print("START: Immersive Engineering Ore Processing Crusher Script: Gregtech Ore 
                 var crushedoreoredict = oreDict.get(crushedorestring);
 
             //itemstack
-                var outputitemstackdust = ouputoredictdust.firstItem;
-                var crushedoreitemstack = crushedoreoredict.firstItem;
+                var outputitemstackdust = utils.getItemstack(ouputoredictdust);
+                var crushedoreitemstack = utils.getItemstack(crushedoreoredict);
             addCrusher_Recipe(outputitemstackdust, crushedoreitemstack, secondoutputitemstack);
     }
 
@@ -86,8 +87,8 @@ print("START: Immersive Engineering Ore Processing Crusher Script: Gregtech Ore 
                 var secondoutputoredict = oreDict.get(secondaryoreduststring);
             
             //itemstacks
-                var outputitemstack = ouputoredict.firstItem;
-                var secondoutputitemstack = secondoutputoredict.firstItem;
+                var outputitemstack = utils.getItemstack(ouputoredict);
+                var secondoutputitemstack = utils.getItemstack(secondoutputoredict);
         
         //gem stuff
             //gem names
@@ -95,7 +96,7 @@ print("START: Immersive Engineering Ore Processing Crusher Script: Gregtech Ore 
             //gem oredict
                 var seondgemoutputoredict = oreDict.get(secondaryoregemstring);
             //gem itemstack
-                var seondgemoutputitemstack = seondgemoutputoredict.firstItem;
+                var seondgemoutputitemstack = utils.getItemstack(seondgemoutputoredict);
         
         //ore to crushed ore
             //endstone
@@ -117,8 +118,8 @@ print("START: Immersive Engineering Ore Processing Crusher Script: Gregtech Ore 
                 var crushedoreoredict = oreDict.get(crushedorestring);
 
             //itemstack
-                var outputitemstackdust = ouputoredictdust.firstItem;
-                var crushedoreitemstack = crushedoreoredict.firstItem;
+                var outputitemstackdust = utils.getItemstack(ouputoredictdust);
+                var crushedoreitemstack = utils.getItemstack(crushedoreoredict);
             addCrusher_Recipe(outputitemstackdust, crushedoreitemstack, secondoutputitemstack);
     }
 

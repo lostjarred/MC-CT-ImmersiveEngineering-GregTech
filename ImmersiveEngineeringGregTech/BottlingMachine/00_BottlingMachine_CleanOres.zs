@@ -1,6 +1,7 @@
 #priority 500
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import scripts.ImmersiveEngineeringGregTech.Util_Functions as utils;
 
 print("START: Immersive Engineering Ore Processing Bottler Script: Clean Gregtech Ore ");
 /*
@@ -20,8 +21,8 @@ function cleanOreMain(ore as string) {
         var dirty_dust_ore = oreDict.get(dirty_dust_string);
         var clean_dust_ore = oreDict.get(clean_dust_string);
     //get iitemstacks
-        var clean_crushed_item = clean_crushed_ore.firstItem;
-        var clean_dust_item = clean_dust_ore.firstItem;
+        var clean_crushed_item = utils.getItemstack(clean_crushed_ore);
+        var clean_dust_item = utils.getItemstack(clean_dust_ore);
     
     add_bottler_recipe(clean_crushed_item, dirty_crushed_ore);
     add_bottler_recipe(clean_dust_item, dirty_dust_ore);
