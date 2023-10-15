@@ -16,7 +16,8 @@ if you want more mineral veins to generate you need to adjust the chance in the 
     D:excavator_chance
 
 ==-- Craftweaker Proritys --==
+1000 - util functions
 910 - Excavator Remove Default veins
 900 - Excavator Add Gregtech Veins
-510 - Crusher Remove Ores
+510 - Crusher Remove Ores, remove metal press recipes
 500 - Crusher Add Ores, Bottler Clean Ores
