@@ -18,7 +18,7 @@ if you want more mineral veins to generate you need to adjust the chance in the 
 ==-- Craftweaker Proritys --==
 1000 - util functions
 910 - Excavator Remove Default veins
-900 - Excavator Add Gregtech Veins
+900 - Excavator Add Gregtech Veins, crafting replace all occurances
 510 - Crusher Remove Ores, remove metal press plate recipes
 500 - Crusher Add Ores, Bottler Clean Ores, add metal press plate recipes
 
@@ -26,4 +26,3 @@ if you want more mineral veins to generate you need to adjust the chance in the 
 Remove plate recipe using engineer hammer
 Remove Ore Recipes using engineer hammer
 Replace wire replace using snips
-Replace <ore:plateAluminum> with <ore:plateAluminium> in recipes
