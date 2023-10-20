@@ -26,3 +26,8 @@ if you want more mineral veins to generate you need to adjust the chance in the 
 Remove plate recipe using engineer hammer
 Remove Ore Recipes using engineer hammer
 Replace wire replace using snips
+metal press remove gears
+metal press add gears
+metal press remove wires
+metal press add wires
+add lv items to worktable
