@@ -35,7 +35,6 @@ suggest changing this to
 Remove plate recipe using engineer hammer
 Remove Ore Recipes using engineer hammer
 Replace wire replace using snips
-metal press remove gears
 metal press add gears
 metal press remove wires
 metal press add wires
