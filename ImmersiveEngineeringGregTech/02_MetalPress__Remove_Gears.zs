@@ -35,6 +35,7 @@ print("START: Immersive Engineering Metal Press: Remove Gears");
         "Bronze",
         "Invar",
         "SterlingSilver",
+        "RoseGold",
         "Gold",
         "BlackBronze",
         "Ruridit",
