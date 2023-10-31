@@ -34,6 +34,5 @@ suggest changing this to
 ==-- TODO list --==
 Remove plate recipe using engineer hammer
 Remove Ore Recipes using engineer hammer
-Replace wire replace using snips
-metal press add wires
+remove wire recipes using wire snips
 add lv items to worktable
