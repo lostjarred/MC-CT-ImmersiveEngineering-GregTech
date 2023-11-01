@@ -3,6 +3,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import scripts.ImmersiveEngineeringGregTech.Util_Functions as utils;
+
 print("START: Immersive Engineering : Remove crafting recipes");
     //recipes.remove(output, NBTMatch);
     function remove_wire_recipes() {
@@ -55,10 +57,27 @@ print("START: Immersive Engineering : Remove crafting recipes");
                 recipes.remove(<immersiveengineering:sword_steel>);
     }
 
-
+    function remove_crushedore_recipes() {
+        val recipenamebase_string = "immersiveengineering:hammercrushing_";
+        for ore in utils.get_gt_ore_array() { 
+            var orename_string = ore.toLowerCase();
+            var recipename_string = recipenamebase_string + orename_string;
+            /*
+                recipes.removeByRecipeName("modid:recipename");
+            */
+            print("removing recipe named " + recipename_string);
+            recipes.removeByRecipeName(recipename_string);
+        }
+        //ie recipes
+        //aluminium - baxite
+            recipes.removeByRecipeName("immersiveengineering:hammercrushing_aluminum");
+        //uranium
+            recipes.removeByRecipeName("immersiveengineering:hammercrushing_uranium");
+    }
 
     remove_wire_recipes();
     remove_plate_recipes();
     remove_tool_recipes();
+    remove_crushedore_recipes();
 
 print("END: Immersive Engineering : Remove crafting recipes");
