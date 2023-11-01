@@ -40,4 +40,14 @@ function gen_shovel_recipe(plate as IIngredient) as IIngredient[][] {
     ];
 }
 
+function gen_axe_recipe(plate as IIngredient, ingot as IIngredient) as IIngredient[][] {
+    val gtfile = <ore:craftingToolFile>;
+    val gthammer = <ore:toolHammer>;
+    return [
+        [plate, ingot, gtfile],
+        [plate, <ore:stickTreatedWood>, null],
+        [gthammer, <ore:stickTreatedWood>, null]
+    ];
+}
+
 print("END: util functions");
