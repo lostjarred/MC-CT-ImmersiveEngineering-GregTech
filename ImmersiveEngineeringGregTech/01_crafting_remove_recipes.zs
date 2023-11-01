@@ -41,9 +41,24 @@ print("START: Immersive Engineering : Remove crafting recipes");
             recipes.remove(<immersiveengineering:metal:40>);
     }
 
+    function remove_tool_recipes() {
+        //steel
+            //pickaxe
+                recipes.remove(<immersiveengineering:pickaxe_steel>);
+            //shovel
+                recipes.remove(<immersiveengineering:shovel_steel>);
+            //axe
+                recipes.remove(<immersiveengineering:axe_steel>);
+            //hoe
+                recipes.remove(<immersiveengineering:hoe_steel>);
+            //sword
+                recipes.remove(<immersiveengineering:sword_steel>);
+    }
+
 
 
     remove_wire_recipes();
     remove_plate_recipes();
+    remove_tool_recipes();
 
 print("END: Immersive Engineering : Remove crafting recipes");
