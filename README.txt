@@ -52,9 +52,6 @@ suggest changing this to
         add blueprint recipes
 
 ==-- TODO list --==
-Add ulv items to worktable
-    -Machine casing
-    -Vacum Tube
 Add lv items to worktable
     -Machine casing
     -Circuit
