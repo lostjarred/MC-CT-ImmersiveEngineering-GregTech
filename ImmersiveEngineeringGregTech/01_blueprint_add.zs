@@ -31,3 +31,10 @@ import crafttweaker.item.IIngredient;
         mods.immersiveengineering.Blueprint.addRecipe(ulvblueprint, gtglasstube,
             [<ore:blockGlass>]
         );
+//lv Recipes
+    val lvblueprint = "LV Components"
+    //lv machine casing
+        val gtlvcasing = <gregtech:machine_casing:1>;
+        mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtlvcasing,
+            [<ore:plateSteel> * 8]
+        );
