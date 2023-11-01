@@ -50,7 +50,6 @@ suggest changing this to
         add crafting recipes
 
 ==-- TODO list --==
-Remove plate recipe using engineer hammer
 Remove Ore Recipes using engineer hammer
 Add ulv items to worktable
     -Machine casing
