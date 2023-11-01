@@ -168,7 +168,7 @@ function addCrusher_Recipe(output as IItemStack, input as IIngredient, secondary
     //platinum
         addNonGemOreProcessing("Platinum", 2, "Nickel");
     //plutonium 239
-        addNonGemOreProcessing("Plutonium239", 2, "Uraninite");
+        addNonGemOreProcessing("Plutonium", 2, "Uraninite");
     //silver
         addNonGemOreProcessing("Silver", 2, "Lead");
     //sulfur
@@ -232,7 +232,7 @@ function addCrusher_Recipe(output as IItemStack, input as IIngredient, secondary
     //magnetite
         addNonGemOreProcessing("Magnetite", 2, "Iron");
     //molybdenite
-        addNonGemOreProcessing("Molybdenum", 2, "Molybdenum");
+        addNonGemOreProcessing("Molybdenite", 2, "Molybdenum");
     //powellite
         addNonGemOreProcessing("Powellite", 2, "Iron");
     //pyrite
