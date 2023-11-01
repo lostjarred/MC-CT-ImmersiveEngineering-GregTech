@@ -43,11 +43,11 @@ import crafttweaker.item.IIngredient;
         val gtstickyresin = <gregtech:meta_item_1:438>;
         //charcoal
             mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtresistor * 2,
-                [gtstickyresin, <ore:wireFineCopper>, <ore:dustCharcoal>]
+                [gtstickyresin, <ore:wireFineCopper>, <ore:dustCharcoal>, <ore:paper>]
             );
         //coal
             mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtresistor * 2,
-                [gtstickyresin, <ore:wireFineCopper>, <ore:dustCoal>]
+                [gtstickyresin, <ore:wireFineCopper>, <ore:dustCoal>, <ore:paper>]
             );
     //circuit board
         val gtcoatedcircuit = <gregtech:meta_item_1:381>;
