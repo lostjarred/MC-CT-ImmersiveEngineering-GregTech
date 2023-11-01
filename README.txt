@@ -59,3 +59,7 @@ Add lv items to worktable
     -Resistor
     -Circuit Board
 Add configs changes for toolbox
+Add bottling recipe for cables
+    -ulv
+    -lv
+    -mv
