@@ -20,4 +20,14 @@ function getItemstack(input as IOreDictEntry) as IItemStack {
     return return_item;
 }
 
+function gen_pickaxe_recipe(plate as IIngredient, ingot as IIngredient) as IIngredient[][] {
+    val gtfile = <ore:craftingToolFile>;
+    val gthammer = <ore:toolHammer>;
+    return [
+        [plate, ingot, ingot],
+        [gthammer, <ore:stickTreatedWood>, gtfile],
+        [null, <ore:stickTreatedWood>, null]
+    ];
+}
+
 print("END: util functions");
