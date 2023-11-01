@@ -34,7 +34,7 @@ function gen_shovel_recipe(plate as IIngredient) as IIngredient[][] {
     val gtfile = <ore:craftingToolFile>;
     val gthammer = <ore:toolHammer>;
     return [
-        [gthammer, ingot, gtfile],
+        [gthammer, plate, gtfile],
         [null, <ore:stickTreatedWood>, null],
         [null, <ore:stickTreatedWood>, null]
     ];
@@ -56,6 +56,16 @@ function gen_hoe_recipe(plate as IIngredient, ingot as IIngredient) as IIngredie
     return [
         [plate, ingot, gtfile],
         [gthammer, <ore:stickTreatedWood>, null],
+        [null, <ore:stickTreatedWood>, null]
+    ];
+}
+
+function gen_sword_recipe(plate as IIngredient) as IIngredient[][] {
+    val gtfile = <ore:craftingToolFile>;
+    val gthammer = <ore:toolHammer>;
+    return [
+        [null, plate, null],
+        [gthammer, plate, gtfile],
         [null, <ore:stickTreatedWood>, null]
     ];
 }
