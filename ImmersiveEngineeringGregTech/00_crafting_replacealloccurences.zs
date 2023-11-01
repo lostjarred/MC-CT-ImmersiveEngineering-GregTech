@@ -15,4 +15,8 @@ print("START: Crafting : Replace all occurences");
         recipes.replaceAllOccurences(<ore:wireAluminum>, <ore:wireGtSingleAluminium>);
         //steel
         recipes.replaceAllOccurences(<ore:wireSteel>, <ore:wireGtSingleSteel>);
+    //replace vacuum tube
+        val gtvacumtube = <gregtech:meta_item_1:516>;
+        recipes.replaceAllOccurences(<immersiveengineering:material:26>, gtvacumtube);
+
 print("END: Crafting : Replace all occurences");
