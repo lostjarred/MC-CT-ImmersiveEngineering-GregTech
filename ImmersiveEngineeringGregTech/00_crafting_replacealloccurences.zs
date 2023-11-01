@@ -18,5 +18,7 @@ print("START: Crafting : Replace all occurences");
     //replace vacuum tube
         val gtvacumtube = <gregtech:meta_item_1:516>;
         recipes.replaceAllOccurences(<immersiveengineering:material:26>, gtvacumtube);
+    //replace circuit board
+        recipes.replaceAllOccurences(<immersiveengineering:material:27>, <ore:circuitLv>);
 
 print("END: Crafting : Replace all occurences");
