@@ -29,7 +29,7 @@ suggest changing this to
 910 - Excavator Remove Default veins
 900 - Excavator Add Gregtech Veins, crafting replace all occurances
 510 - Crusher Remove Ores, remove metal press plate recipes, remove metal press gear recipes, remove recipes
-500 - Crusher Add Ores, Bottler Clean Ores, add metal press plate recipes, add metal press gear recipes, add metal press wire recipes
+500 - Crusher Add Ores, Bottler Clean Ores, add metal press plate recipes, add metal press gear recipes, add metal press wire recipes, add crafting recipes
 
 ==-- TODO list --==
 Remove plate recipe using engineer hammer
