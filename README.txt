@@ -5,6 +5,11 @@ currently
  - adds the ore veins from gregtech to the excavator
  - add ore to crushed ore, crushed ore to dust to the Crusher
  - add ablity to use the bottling machine to clean crushed ore and dust
+ - replaces tool recipes to be more like gregtech recipes just has the file and hammer reversed to avoid recipe conflicts
+ - replaces plates for the metal press
+ - replaces wires and gear recipes (ATM makes gears and wires require plates)
+ - replaces ie wire with gt 1x wires for crafting
+ - replaces plateAluminum with plateAluminium in crafting recipes
 
 Version 1.12.2
 
