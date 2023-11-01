@@ -55,3 +55,8 @@ import crafttweaker.item.IIngredient;
         mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtlvcircuitboard,
                 [gtcoatedcircuit, <ore:foilCopper> * 4]
         );
+    //lv circuit
+        val gtlvcircuit = <gregtech:meta_item_1:621>;
+        mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtlvcircuit * 2,
+                [gtlvcircuitboard, gtresistor * 2, <ore:wireGtSingleRedAlloy> * 2, <ore:circuitUlv>]
+        );
