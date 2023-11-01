@@ -52,11 +52,6 @@ suggest changing this to
         add blueprint recipes
 
 ==-- TODO list --==
-Add lv items to worktable
-    -Machine casing
-    -Circuit
-    -Resistor
-    -Circuit Board
 Add configs changes for toolbox
 Add bottling recipe for cables
     -ulv
