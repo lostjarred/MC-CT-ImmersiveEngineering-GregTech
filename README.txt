@@ -49,6 +49,7 @@ suggest changing this to
         add metal press gear recipes, 
         add metal press wire recipes, 
         add crafting recipes
+        add blueprint recipes
 
 ==-- TODO list --==
 Add ulv items to worktable
