@@ -32,9 +32,20 @@ import crafttweaker.item.IIngredient;
             [<ore:blockGlass>]
         );
 //lv Recipes
-    val lvblueprint = "LV Components"
+    val lvblueprint = "LV Components";
     //lv machine casing
         val gtlvcasing = <gregtech:machine_casing:1>;
         mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtlvcasing,
             [<ore:plateSteel> * 8]
         );
+    //resistor
+        val gtresistor = <gregtech:meta_item_1:519>;
+        val gtstickyresin = <gregtech:meta_item_1:438>;
+        //charcoal
+            mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtresistor * 2,
+                [gtstickyresin, <ore:wireFineCopper>, <ore:dustCharcoal>]
+            );
+        //coal
+            mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtresistor * 2,
+                [gtstickyresin, <ore:wireFineCopper>, <ore:dustCoal>]
+            );
