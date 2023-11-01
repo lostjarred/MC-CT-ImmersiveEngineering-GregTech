@@ -27,3 +27,7 @@ import crafttweaker.item.IIngredient;
         mods.immersiveengineering.Blueprint.addRecipe(ulvblueprint, gtvacuumtube * 2,
             [<ore:boltSteel> * 2, gtglasstube, <ore:wireGtSingleCopper>]
         );
+    //glass tubes
+        mods.immersiveengineering.Blueprint.addRecipe(ulvblueprint, gtglasstube,
+            [<ore:blockGlass>]
+        );
