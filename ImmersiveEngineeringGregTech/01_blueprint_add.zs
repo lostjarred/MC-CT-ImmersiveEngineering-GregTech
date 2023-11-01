@@ -19,5 +19,11 @@ import crafttweaker.item.IIngredient;
     //ulv machine casing
         val gtulvcasing = <gregtech:machine_casing>;
         mods.immersiveengineering.Blueprint.addRecipe(ulvblueprint, gtulvcasing,
-        [<ore:plateWroughtIron> * 8]
+            [<ore:plateWroughtIron> * 8]
+        );
+    //vacuum tube
+        val gtvacuumtube = <gregtech:meta_item_1:516>;
+        val gtglasstube = <gregtech:meta_item_1:517>;
+        mods.immersiveengineering.Blueprint.addRecipe(ulvblueprint, gtvacuumtube * 2,
+            [<ore:boltSteel> * 2, gtglasstube, <ore:wireGtSingleCopper>]
         );
