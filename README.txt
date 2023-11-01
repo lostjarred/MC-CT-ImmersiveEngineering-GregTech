@@ -52,4 +52,12 @@ suggest changing this to
 ==-- TODO list --==
 Remove plate recipe using engineer hammer
 Remove Ore Recipes using engineer hammer
-add lv items to worktable
+Add ulv items to worktable
+    -Machine casing
+    -Vacum Tube
+Add lv items to worktable
+    -Machine casing
+    -Circuit
+    -Resistor
+    -Circuit Board
+Add configs changes for toolbox
