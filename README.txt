@@ -29,7 +29,7 @@ suggest changing this to
         immersiveengineering
      >
 
-==-- Craftweaker Proritys --==
+==-- Craftweaker Priority's --==
 1000 -  util functions
 
 910 -   Excavator Remove Default veins
