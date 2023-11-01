@@ -8,4 +8,8 @@ import crafttweaker.item.IIngredient;
         mods.immersiveengineering.Blueprint.removeRecipe(IItemStack output);
         mods.immersiveengineering.Blueprint.removeRecipe(<minecraft:diamond>);
     */
-    mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:material:26>);
+    val ievacuumtube = <immersiveengineering:material:26>;
+    mods.immersiveengineering.Blueprint.removeRecipe(ievacuumtube);
+//remove ie circuitboard
+    val iecircuitboard = <immersiveengineering:material:27>;
+    mods.immersiveengineering.Blueprint.removeRecipe(iecircuitboard);
