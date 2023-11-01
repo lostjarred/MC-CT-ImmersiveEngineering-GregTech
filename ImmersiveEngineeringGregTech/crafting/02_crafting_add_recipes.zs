@@ -20,6 +20,25 @@ print("START: Immersive Engineering : Add crafting recipes");
             //sword
                 recipes.addShaped(<immersiveengineering:sword_steel>, utils.gen_sword_recipe(<ore:plateSteel>) );
     }
-    add_tool_recipes();
 
+    function add_blueprint_recipes() {
+        //ulv blueprint
+            recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "ULV Components"}), 
+            [
+                [<ore:plateWroughtIron>, <ore:blockGlass>, <ore:boltSteel>],
+                [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
+                [<ore:paper>, <ore:paper>, <ore:paper>]
+            ]);
+        //lv blueprint
+            val gtvacuumtube = <gregtech:meta_item_1:516>;
+            recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "LV Components"}), 
+            [
+                [<ore:plateSteel>, gtvacuumtube, <ore:wireGtSingleCopper>],
+                [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
+                [<ore:paper>, <ore:paper>, <ore:paper>]
+            ]);
+    }
+    
+    add_tool_recipes();
+    add_blueprint_recipes();
 print("END: Immersive Engineering : Add crafting recipes");
