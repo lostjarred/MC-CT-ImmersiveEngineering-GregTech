@@ -38,7 +38,17 @@ print("START: Immersive Engineering : Add crafting recipes");
                 [<ore:paper>, <ore:paper>, <ore:paper>]
             ]);
     }
+
+    function add_misc_recipes() {
+        //add recipe using rubber for conveyor belt
+        recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 8, 
+            [
+                [<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>],
+                [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]
+            ]);
+    }
     
     add_tool_recipes();
     add_blueprint_recipes();
+    add_misc_recipes();
 print("END: Immersive Engineering : Add crafting recipes");
