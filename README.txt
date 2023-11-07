@@ -59,7 +59,6 @@ Add bottling recipe for cables
     -mv
 Replace Mixing recipe for concrete - change from IE to GT
 Replace Crafting recipes
-        -Scaffolding
         -Reinforced Blast Brick
-? Alloy Kiln
+? Alloy Kiln ?
         - Add Recipes
