@@ -69,7 +69,7 @@ print("START: Immersive Engineering : Add crafting recipes");
             ]);
         //reinforced blast brick
             val gtfirebrick = <gregtech:metal_casing:1>;
-            recipes.addShaped(<immersiveengineering:metal_decoration1:5>, 
+            recipes.addShaped(<immersiveengineering:stone_decoration:2>, 
             [
                 [<ore:plateSteel>],
                 [gtfirebrick]
