@@ -57,6 +57,11 @@ print("START: Immersive Engineering : Add crafting recipes");
             [
                 [<ore:frameGtTreatedWood>]
             ]);
+        //steel scaffolding
+            recipes.addShaped(<immersiveengineering:metal_decoration1:1>, 
+            [
+                [<ore:frameGtSteel>]
+            ]);
     }
     
     add_tool_recipes();
