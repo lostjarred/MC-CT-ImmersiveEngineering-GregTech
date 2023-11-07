@@ -75,9 +75,15 @@ print("START: Immersive Engineering : Remove crafting recipes");
             recipes.removeByRecipeName("immersiveengineering:hammercrushing_uranium");
     }
 
+    function remove_misc() {
+        //treated wood
+        recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood");
+    }
+
     remove_wire_recipes();
     remove_plate_recipes();
     remove_tool_recipes();
     remove_crushedore_recipes();
+    remove_misc();
 
 print("END: Immersive Engineering : Remove crafting recipes");
