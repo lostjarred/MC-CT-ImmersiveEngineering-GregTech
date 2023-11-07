@@ -46,6 +46,12 @@ print("START: Immersive Engineering : Add crafting recipes");
                 [<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>],
                 [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]
             ]);
+        //add treated wood convert
+        val gttreatedwood = <gregtech:planks:1>;
+        recipes.addShaped(<immersiveengineering:treated_wood>, 
+            [
+                [gttreatedwood]
+            ]);
     }
     
     add_tool_recipes();
