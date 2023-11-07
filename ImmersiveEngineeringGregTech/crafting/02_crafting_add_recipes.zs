@@ -52,6 +52,11 @@ print("START: Immersive Engineering : Add crafting recipes");
             [
                 [gttreatedwood]
             ]);
+        //treated wood scaffolding
+        recipes.addShaped(<immersiveengineering:wooden_decoration:1>, 
+            [
+                [<ore:frameGtTreatedWood>]
+            ]);
     }
     
     add_tool_recipes();
