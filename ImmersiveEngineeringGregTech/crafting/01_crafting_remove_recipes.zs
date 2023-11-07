@@ -77,7 +77,11 @@ print("START: Immersive Engineering : Remove crafting recipes");
 
     function remove_misc() {
         //treated wood
-        recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood");
+            recipes.removeByRecipeName("immersiveengineering:treated_wood/treated_wood");
+        //blastbrick
+            recipes.remove(<immersiveengineering:stone_decoration:1>);
+        //coke brick
+            recipes.remove(<immersiveengineering:stone_decoration>);
     }
 
     remove_wire_recipes();
