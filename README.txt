@@ -58,5 +58,27 @@ Add bottling recipe for cables
     -lv
     -mv
 Replace Mixing recipe for concrete - change from IE to GT
+Hide from JEI removed items
+     -Copper plate
+     -aluminium plate
+     -lead plate
+     -silver plate
+     -nickel plate
+     -uranium plate
+     -constantan plate
+     -electrum plate
+     -steel plate
+     -iron plate
+     -gold plate
+     -vacuum tube
+     -circuit board
+     -blast brick
+     -coke brick
+Replace crusher recipes ingot to dust
+Replace grit to ingot recipes 
+Add Bio diesel to GT Combustion
+Add GT Fuels to engine
+
 ? Alloy Kiln ?
-        - Add Recipes
+     - Add Recipes ?
+Rename Biodisel - Biocrude?     
