@@ -86,6 +86,8 @@ print("START: Immersive Engineering : Remove crafting recipes");
             recipes.remove(<immersiveengineering:wooden_decoration:1>);
         //steel scaffolding
             recipes.removeByRecipeName("immersiveengineering:metal_decoration/steel_scaffolding");
+        //aluminium scaffolding
+            recipes.removeByRecipeName("immersiveengineering:metal_decoration/aluminum_scaffolding");
     }
 
     remove_wire_recipes();
