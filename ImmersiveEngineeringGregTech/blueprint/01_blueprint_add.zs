@@ -3,6 +3,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+print("START: Immersive Engineering : Blueprint : add ");
+
 /*
     //Example:
     mods.immersiveengineering.Blueprint.addRecipe(String category, IItemStack output, IIngredient[] inputs);
@@ -60,3 +62,5 @@ import crafttweaker.item.IIngredient;
         mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtlvcircuit * 2,
                 [gtlvcircuitboard, gtresistor * 2, <ore:wireGtSingleRedAlloy> * 2, <ore:circuitUlv>]
         );
+
+print("END: Immersive Engineering : Blueprint : add ");
