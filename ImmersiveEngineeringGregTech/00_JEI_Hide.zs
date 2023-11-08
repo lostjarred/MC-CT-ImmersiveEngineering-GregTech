@@ -41,5 +41,5 @@ print("START: Immersive Engineering : JEI : hide ");
             mods.jei.JEI.hide(<immersiveengineering:metal:40>);
     }
 
-    hide_plate();
+    hide_plates();
 print("END: Immersive Engineering : JEI : hide ");
