@@ -50,6 +50,7 @@ suggest changing this to
         add metal press wire recipes, 
         add crafting recipes
         add blueprint recipes
+100 - JEI Hide
 
 ==-- TODO list --==
 Add configs changes for toolbox
@@ -59,21 +60,14 @@ Add bottling recipe for cables
     -mv
 Replace Mixing recipe for concrete - change from IE to GT
 Hide from JEI removed items
-     -Copper plate
-     -aluminium plate
-     -lead plate
-     -silver plate
-     -nickel plate
-     -uranium plate
-     -constantan plate
-     -electrum plate
-     -steel plate
-     -iron plate
-     -gold plate
      -vacuum tube
      -circuit board
      -blast brick
      -coke brick
+     -copper wire
+     -electrum wire
+     -aluminium wire
+     -steel wire
 Replace crusher recipes ingot to dust
 Replace grit to ingot recipes 
 Add Bio diesel to GT Combustion
