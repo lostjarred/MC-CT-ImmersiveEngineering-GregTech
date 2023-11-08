@@ -70,10 +70,6 @@ Metal Press
     - remove aluminium rods
 
 Hide from JEI removed items
-     - vacuum tube
-     - circuit board
-     - blast brick
-     - coke brick
      - iron rods
      - steel rods
      - aluminium rods
