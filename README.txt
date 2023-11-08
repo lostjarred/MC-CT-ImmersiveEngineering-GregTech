@@ -54,20 +54,30 @@ suggest changing this to
 
 ==-- TODO list --==
 Add configs changes for toolbox
+
 Add bottling recipe for cables
     -ulv
     -lv
     -mv
 Replace Mixing recipe for concrete - change from IE to GT
+
+Metal Press 
+    - add iron rods
+    - add steel rods
+    - add alumium rods
+    - remove iron rods
+    - remove steel rods
+    - remove aluminium rods
+
 Hide from JEI removed items
-     -vacuum tube
-     -circuit board
-     -blast brick
-     -coke brick
-     -copper wire
-     -electrum wire
-     -aluminium wire
-     -steel wire
+     - vacuum tube
+     - circuit board
+     - blast brick
+     - coke brick
+     - iron rods
+     - steel rods
+     - aluminium rods
+
 Replace crusher recipes ingot to dust
 Replace grit to ingot recipes 
 Add Bio diesel to GT Combustion
