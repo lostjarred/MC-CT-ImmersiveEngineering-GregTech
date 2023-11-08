@@ -9,6 +9,13 @@ print("START: Immersive Engineering : JEI : hide ");
         mods.jei.JEI.hide(<minecraft:diamond>);
     */
 
+    function hide_wires() {
+        //copper
+        //electrum
+        //aluminium
+        //steel
+    }
+
     function hide_plates() {
         //copper
             mods.jei.JEI.hide(<immersiveengineering:metal:30>);
