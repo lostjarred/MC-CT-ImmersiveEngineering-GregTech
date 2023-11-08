@@ -45,6 +45,22 @@ print("START: Immersive Engineering : JEI : hide ");
             mods.jei.JEI.hide(<immersiveengineering:metal:40>);
     }
 
+    function hide_misc() {
+        //vacuum tube
+            mods.jei.JEI.hide(<immersiveengineering:material:26>);
+        //circuit board
+            mods.jei.JEI.hide(<immersiveengineering:material:27>);
+        //blast brick
+            mods.jei.JEI.hide(<immersiveengineering:stone_decoration:1>);
+            //slab
+                mods.jei.JEI.hide(<immersiveengineering:stone_decoration_slab:1>);
+        //coke brick
+            mods.jei.JEI.hide(<immersiveengineering:stone_decoration>);
+            //slab
+                mods.jei.JEI.hide(<immersiveengineering:stone_decoration_slab>);
+    }
+
     hide_plates();
     hide_wires();
+    hide_misc();
 print("END: Immersive Engineering : JEI : hide ");
