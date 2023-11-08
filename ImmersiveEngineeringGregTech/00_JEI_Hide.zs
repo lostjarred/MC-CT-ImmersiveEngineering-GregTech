@@ -11,9 +11,13 @@ print("START: Immersive Engineering : JEI : hide ");
 
     function hide_wires() {
         //copper
+            mods.jei.JEI.hide(<immersiveengineering:material:20>);
         //electrum
+            mods.jei.JEI.hide(<immersiveengineering:material:21>);
         //aluminium
+            mods.jei.JEI.hide(<immersiveengineering:material:22>);
         //steel
+            mods.jei.JEI.hide(<immersiveengineering:material:23>);
     }
 
     function hide_plates() {
@@ -42,4 +46,5 @@ print("START: Immersive Engineering : JEI : hide ");
     }
 
     hide_plates();
+    hide_wires();
 print("END: Immersive Engineering : JEI : hide ");
