@@ -19,6 +19,16 @@ print("START: Immersive Engineering: Furnace: Remove");
             furnace.remove(<immersiveengineering:metal:4>, <immersiveengineering:ore:4>);
         //uranium
             furnace.remove(<immersiveengineering:metal:5>, <immersiveengineering:ore:5>);
+    }
+
+    function dust_ingot_recipe_remove() {
+        //coppper
+            furnace.remove(<immersiveengineering:metal>, <immersiveengineering:metal:9>);
+        //aluminium
+        //lead
+        //silver
+        //nickel
+        //uranium
         //constantan
         //electrum
         //steel
@@ -26,4 +36,5 @@ print("START: Immersive Engineering: Furnace: Remove");
 
 
     ore_ingot_recipe_remove();
+    dust_ingot_recipe_remove();
 print("END: Immersive Engineering: Furnace: Remove");
