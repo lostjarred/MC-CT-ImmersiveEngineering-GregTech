@@ -8,6 +8,7 @@ print("START: Crafting : Replace all occurences");
         //ingot
             recipes.replaceAllOccurences(<ore:ingotAluminum>, <ore:ingotAluminium>);
         //rod
+            recipes.replaceAllOccurences(<ore:stickAluminum>, <ore:stickAluminium>);
         //plate
             recipes.replaceAllOccurences(<ore:plateAluminum>, <ore:plateAluminium>);
     //replace wire in recipes
