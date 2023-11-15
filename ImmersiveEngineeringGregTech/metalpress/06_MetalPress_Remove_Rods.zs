@@ -10,5 +10,6 @@ print("START: Immersive Engineering Metal Press: Remove Rods");
     //iron
         mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:1>);
     //steel
+        mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:2>);
     //aluminium
 print("END: Immersive Engineering Metal Press: Remove Rods");
