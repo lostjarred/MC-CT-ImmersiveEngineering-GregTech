@@ -49,6 +49,7 @@ print("START: Immersive Engineering : JEI : hide ");
         //iron
             mods.jei.JEI.hide(<immersiveengineering:material:1>);
         //steel
+            mods.jei.JEI.hide(<immersiveengineering:material:2>);
         //aluminium
     }
 
