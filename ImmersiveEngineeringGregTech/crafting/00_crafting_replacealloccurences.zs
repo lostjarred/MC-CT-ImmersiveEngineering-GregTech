@@ -4,8 +4,12 @@ import crafttweaker.item.IIngredient;
 
 print("START: Crafting : Replace all occurences");
     //recipes.replaceAllOccurences(IIngredient toReplace, IIngredient replaceWith, @Optional IIngredient forOutput);
-    //replace plateAluminum
-        recipes.replaceAllOccurences(<ore:plateAluminum>, <ore:plateAluminium>);
+    //replace Aluminum
+        //ingot
+            recipes.replaceAllOccurences(<ore:ingotAluminum>, <ore:ingotAluminium>);
+        //rod
+        //plate
+            recipes.replaceAllOccurences(<ore:plateAluminum>, <ore:plateAluminium>);
     //replace wire in recipes
         //coppper
         recipes.replaceAllOccurences(<ore:wireCopper>, <ore:wireGtSingleCopper>);
