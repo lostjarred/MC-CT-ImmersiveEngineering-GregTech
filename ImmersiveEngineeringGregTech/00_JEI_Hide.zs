@@ -44,8 +44,13 @@ print("START: Immersive Engineering : JEI : hide ");
         //gold
             mods.jei.JEI.hide(<immersiveengineering:metal:40>);
     }
-
+    /*
+        //removeAndHide(IIngredient output, @optional boolean NBT-Match)
+        mods.jei.JEI.removeAndHide(<minecraft:iron_leggings>);
+    */
     function hide_rods() {
+        //treated stick
+            mods.jei.JEI.removeAndHide(<immersiveengineering:material:0>);
         //iron
             mods.jei.JEI.hide(<immersiveengineering:material:1>);
         //steel
