@@ -43,6 +43,7 @@ suggest changing this to
         remove recipes
         remove blueprint recipes
         metal press remove rods
+        remove furnace recipes
 
 500 -   Crusher Add Ores, 
         Bottler Clean Ores, 
