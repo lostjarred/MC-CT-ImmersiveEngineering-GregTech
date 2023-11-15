@@ -16,6 +16,7 @@ print("START: Immersive Engineering: Furnace: Remove");
         //silver
             furnace.remove(<immersiveengineering:metal:3>, <immersiveengineering:ore:3>);
         //nickel
+            furnace.remove(<immersiveengineering:metal:4>, <immersiveengineering:ore:4>);
         //uranium
         //constantan
         //electrum
