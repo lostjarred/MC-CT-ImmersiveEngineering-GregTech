@@ -27,6 +27,7 @@ print("START: Immersive Engineering: Furnace: Remove");
         //aluminium
             furnace.remove(<immersiveengineering:metal:1>, <immersiveengineering:metal:10>);
         //lead
+            furnace.remove(<immersiveengineering:metal:2>, <immersiveengineering:metal:11>);
         //silver
         //nickel
         //uranium
