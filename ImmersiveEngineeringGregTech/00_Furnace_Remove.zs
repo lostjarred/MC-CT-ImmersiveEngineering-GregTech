@@ -39,6 +39,7 @@ print("START: Immersive Engineering: Furnace: Remove");
         //electrum
             furnace.remove(<immersiveengineering:metal:7>, <immersiveengineering:metal:16>);
         //steel
+            furnace.remove(<immersiveengineering:metal:8>, <immersiveengineering:metal:17>);
     }
 
 
