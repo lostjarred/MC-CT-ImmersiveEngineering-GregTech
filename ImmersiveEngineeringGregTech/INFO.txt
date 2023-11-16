@@ -1,0 +1,29 @@
+https://github.com/lostjarred/MC-CT-ImmersiveEngineering-GregTech
+
+==-- Craftweaker Priority's --==
+1000 -  util functions
+
+910 -   Excavator Remove Default veins
+
+900 -   Excavator Add Gregtech Veins, 
+        crafting replace all occurances
+
+510 -   Crusher Remove Ores, 
+        remove metal press plate recipes, 
+        remove metal press gear recipes, 
+        remove recipes
+        remove blueprint recipes
+        metal press remove rods
+        remove furnace recipes
+        crusher remove recipes
+
+500 -   Crusher Add Ores, 
+        Bottler Clean Ores, 
+        add metal press plate recipes, 
+        add metal press gear recipes, 
+        add metal press wire recipes, 
+        add crafting recipes
+        add blueprint recipes
+        add crusher recipes
+
+100 - JEI Hide
