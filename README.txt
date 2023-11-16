@@ -53,6 +53,8 @@ suggest changing this to
         add metal press wire recipes, 
         add crafting recipes
         add blueprint recipes
+        add crusher recipes
+
 100 - JEI Hide
 
 ==-- TODO list --==
