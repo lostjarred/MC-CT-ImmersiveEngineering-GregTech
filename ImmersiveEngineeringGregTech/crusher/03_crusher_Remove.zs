@@ -27,5 +27,7 @@ print("START: Immersive Engineering: Crusher : Remove");
         //steel
             mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:metal:8>);
     }
+    
     remove_ingot_grit_recipes();
+
 print("END: Immersive Engineering: Crusher : Remove");
