@@ -44,6 +44,7 @@ suggest changing this to
         remove blueprint recipes
         metal press remove rods
         remove furnace recipes
+        crusher remove recipes
 
 500 -   Crusher Add Ores, 
         Bottler Clean Ores, 
@@ -55,32 +56,34 @@ suggest changing this to
 100 - JEI Hide
 
 ==-- TODO list --==
-Add configs changes for toolbox
+    Add configs changes for toolbox
 
-Add bottling recipe for cables
-    -ulv
-    -lv
-    -mv
-Replace Mixing recipe for concrete - change from IE to GT
+    Add bottling recipe for cables
+        -ulv
+        -lv
+        -mv
+    Replace Mixing recipe for concrete - change from IE to GT
 
-Metal Press 
-    - add iron rods
-    - add steel rods
-    - add alumium rods
-    - remove iron rods
-    - remove steel rods
-    - remove aluminium rods
+    Metal Press 
+        - add iron rods
+        - add steel rods
+        - add alumium rods
+        - remove iron rods
+        - remove steel rods
+        - remove aluminium rods
 
-Hide from JEI removed items
-     - iron rods
-     - steel rods
-     - aluminium rods
+    Hide from JEI removed items
+        - iron rods
+        - steel rods
+        - aluminium rods
 
-Replace crusher recipes ingot to dust
-Replace grit to ingot recipes 
-Add Bio diesel to GT Combustion
-Add GT Fuels to engine
+    Replace crusher recipes ingot to dust
+    Replace grit to ingot recipes 
+    Add Bio diesel to GT Combustion
+    Add GT Fuels to engine
 
-? Alloy Kiln ?
-     - Add Recipes ?
-Rename Biodisel - Biocrude?     
+    ? Alloy Kiln ?
+        - Add Recipes ?
+    Rename Biodisel - Biocrude?
+
+    Remove crusher recipes for gt ore varients e.g. grandnite iron ore     
