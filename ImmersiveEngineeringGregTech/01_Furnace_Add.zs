@@ -19,6 +19,21 @@ print("START: Immersive Engineering: Furnace: Add");
         //uranium
             furnace.addRecipe(<gregtech:meta_ingot:116>, <immersiveengineering:ore:5>, 0.5);
     }
+
+    function grit_ingot_add() {
+        //coppper
+            furnace.addRecipe(<gregtech:meta_ingot:25>, <immersiveengineering:metal:9>, 0.5);
+        //aluminium - needs blast furnace
+        //lead
+        //silver
+        //nickel
+        //uranium
+        //constantan
+            //furnace.remove(<immersiveengineering:metal:6>, <immersiveengineering:metal:15>);
+        //electrum
+        //steel - needs blast furnace
+    }
     
     ore_ingot_add();
+    grit_ingot_add();
 print("END: Immersive Engineering: Furnace: Add");
