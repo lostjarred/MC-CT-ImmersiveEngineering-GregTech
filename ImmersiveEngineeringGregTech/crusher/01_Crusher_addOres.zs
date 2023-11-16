@@ -135,7 +135,7 @@ function addCrusher_Recipe(output as IItemStack, input as IIngredient, secondary
     //secondary output chance
     val chance as double = 0.20;
     //energy cost
-    val energy as int = 2000;
+    val energy as int = 6000;
     print("Add crushing recipe for " + output.commandString + " using " + input.commandString + " with secondary " + secondaryoutput.commandString);
     mods.immersiveengineering.Crusher.addRecipe(output, input, energy, secondaryoutput, chance);
 }
