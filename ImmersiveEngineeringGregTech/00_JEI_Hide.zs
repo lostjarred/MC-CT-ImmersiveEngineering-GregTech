@@ -77,6 +77,7 @@ print("START: Immersive Engineering : JEI : hide ");
         //electrum
             mods.jei.JEI.removeAndHide(<immersiveengineering:metal:27>);
         //steel
+            mods.jei.JEI.removeAndHide(<immersiveengineering:metal:28>);
         //iron
     }
 
