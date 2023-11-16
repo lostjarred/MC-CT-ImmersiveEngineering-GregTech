@@ -27,6 +27,7 @@ print("START: Immersive Engineering: Furnace: Add");
         //lead
             furnace.addRecipe(<gregtech:meta_ingot:55>, <immersiveengineering:metal:11>, 0.5);
         //silver
+            furnace.addRecipe(<gregtech:meta_ingot:100>, <immersiveengineering:metal:12>, 0.5);
         //nickel
         //uranium
         //constantan
