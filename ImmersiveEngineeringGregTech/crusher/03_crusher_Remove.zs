@@ -17,6 +17,7 @@ print("START: Immersive Engineering: Crusher : Remove");
         //silver
             mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:metal:3>);
         //nickel
+            mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:metal:4>);
         //uranium
         //electrum
         //steel
