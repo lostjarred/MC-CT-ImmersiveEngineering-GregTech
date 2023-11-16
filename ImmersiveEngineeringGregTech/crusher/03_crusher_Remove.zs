@@ -15,10 +15,11 @@ print("START: Immersive Engineering: Crusher : Remove");
         //lead
             mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:metal:2>);
         //silver
+            mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:metal:3>);
         //nickel
         //uranium
         //electrum
         //steel
     }
-
+    remove_ingot_grit_recipes();
 print("END: Immersive Engineering: Crusher : Remove");
