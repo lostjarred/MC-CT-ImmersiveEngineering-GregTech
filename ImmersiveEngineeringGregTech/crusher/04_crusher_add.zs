@@ -18,6 +18,7 @@ print("START: Immersive Engineering: Crusher : Add");
         //copper
             mods.immersiveengineering.Crusher.addRecipe(<gregtech:meta_dust:25>, <ore:ingotCopper>, energy_int);
         //aluminium
+            mods.immersiveengineering.Crusher.addRecipe(<gregtech:meta_dust:2>, <ore:ingotAluminium>, energy_int);
         //lead
         //silver
         //nickel
