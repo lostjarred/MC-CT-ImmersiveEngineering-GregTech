@@ -32,6 +32,9 @@ print("START: Immersive Engineering: Crusher : Add");
             mods.immersiveengineering.Crusher.addRecipe(<gregtech:meta_dust:277>, <ore:ingotElectrum>, energy_int);
         //steel
             mods.immersiveengineering.Crusher.addRecipe(<gregtech:meta_dust:324>, <ore:ingotSteel>, energy_int);
+        //iron
+            mods.immersiveengineering.Crusher.addRecipe(<gregtech:meta_dust:51>, <ore:ingotIron>, energy_int);
+        //gold
     }
 
     add_ingot_dust_recipes();
