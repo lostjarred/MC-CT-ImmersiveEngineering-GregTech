@@ -88,4 +88,5 @@ suggest changing this to
         - Add Recipes ?
     Rename Biodisel - Biocrude?
 
-    Remove crusher recipes for gt ore varients e.g. grandnite iron ore     
+    Remove crusher recipes for gt ore varients e.g. grandnite iron ore
+    Replace Arc Furnace ingot Recipes     
