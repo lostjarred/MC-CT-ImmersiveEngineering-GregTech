@@ -8,16 +8,16 @@ print("START: Immersive Engineering: Furnace: Add");
     */
     function ore_ingot_add() {
         //coppper
-            furnace.addRecipe(<gregtech:meta_ingot:25>, <ore:oreCopper>, 0.5);
+            furnace.addRecipe(<gregtech:meta_ingot:25>, <immersiveengineering:ore>, 0.5);
         //aluminium - Needs blast furnace
         //lead
-            furnace.addRecipe(<gregtech:meta_ingot:55>, <ore:oreLead>, 0.5);
+            furnace.addRecipe(<gregtech:meta_ingot:55>, <immersiveengineering:ore:2>, 0.5);
         //silver
-            furnace.addRecipe(<gregtech:meta_ingot:100>, <ore:oreSilver>, 0.5);
+            furnace.addRecipe(<gregtech:meta_ingot:100>, <immersiveengineering:ore:3>, 0.5);
         //nickel
-            furnace.addRecipe(<gregtech:meta_ingot:69>, <ore:oreNickel>, 0.5);
+            furnace.addRecipe(<gregtech:meta_ingot:69>, <immersiveengineering:ore:4>, 0.5);
         //uranium
-            furnace.addRecipe(<gregtech:meta_ingot:116>, <ore:oreUranium>, 0.5);
+            furnace.addRecipe(<gregtech:meta_ingot:116>, <immersiveengineering:ore:5>, 0.5);
     }
     
     ore_ingot_add();
