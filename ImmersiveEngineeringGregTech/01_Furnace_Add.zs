@@ -11,8 +11,11 @@ print("START: Immersive Engineering: Furnace: Add");
             furnace.addRecipe(<gregtech:meta_ingot:25>, <ore:oreCopper>, 0.5);
         //aluminium - Needs blast furnace
         //lead
+            furnace.addRecipe(<gregtech:meta_ingot:55>, <ore:oreLead>, 0.5);
         //silver
         //nickel
         //uranium
     }
+    
+    ore_ingot_add();
 print("END: Immersive Engineering: Furnace: Add");
