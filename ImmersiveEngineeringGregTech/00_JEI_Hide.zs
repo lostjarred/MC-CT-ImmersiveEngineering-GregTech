@@ -100,6 +100,7 @@ print("START: Immersive Engineering : JEI : hide ");
         //electrum
             mods.jei.JEI.removeAndHide(<immersiveengineering:metal:16>);
         //steel
+            mods.jei.JEI.hide(<immersiveengineering:metal:17>);
         //iron
         //gold
     }
