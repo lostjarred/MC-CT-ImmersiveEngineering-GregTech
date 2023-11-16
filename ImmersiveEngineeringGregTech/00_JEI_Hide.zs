@@ -79,6 +79,7 @@ print("START: Immersive Engineering : JEI : hide ");
         //steel
             mods.jei.JEI.removeAndHide(<immersiveengineering:metal:28>);
         //iron
+            mods.jei.JEI.removeAndHide(<immersiveengineering:metal:29>);
     }
 
     function hide_misc() {
