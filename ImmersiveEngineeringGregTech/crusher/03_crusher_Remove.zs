@@ -26,6 +26,9 @@ print("START: Immersive Engineering: Crusher : Remove");
             mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:metal:7>);
         //steel
             mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:metal:8>);
+        //iron
+            mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:iron_ingot>);
+        //gold
     }
 
     function remove_misc_recipes() {
