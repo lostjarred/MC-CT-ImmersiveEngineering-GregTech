@@ -71,6 +71,7 @@ print("START: Immersive Engineering : JEI : hide ");
         //nickel
             mods.jei.JEI.removeAndHide(<immersiveengineering:metal:24>);
         //uranium
+            mods.jei.JEI.removeAndHide(<immersiveengineering:metal:25>);
         //constantan
         //electrum
         //steel
