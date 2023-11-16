@@ -31,6 +31,8 @@ print("START: Immersive Engineering: Crusher : Remove");
     function remove_misc_recipes() {
         //uranium ore
             mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:ore:5>);
+        //bauxite
+            mods.immersiveengineering.Crusher.removeRecipesForInput(<immersiveengineering:ore:1>);
     }
     
     remove_ingot_grit_recipes();
