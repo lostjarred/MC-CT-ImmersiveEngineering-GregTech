@@ -17,6 +17,7 @@ print("START: Immersive Engineering: Furnace: Add");
         //nickel
             furnace.addRecipe(<gregtech:meta_ingot:69>, <ore:oreNickel>, 0.5);
         //uranium
+            furnace.addRecipe(<gregtech:meta_ingot:116>, <ore:oreUranium>, 0.5);
     }
     
     ore_ingot_add();
