@@ -54,6 +54,7 @@ suggest changing this to
         add crafting recipes
         add blueprint recipes
         add crusher recipes
+        add furnace recipes
 
 100 - JEI Hide
 
