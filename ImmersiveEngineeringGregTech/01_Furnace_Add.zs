@@ -35,6 +35,7 @@ print("START: Immersive Engineering: Furnace: Add");
         //constantan
             //furnace.remove(<immersiveengineering:metal:6>, <immersiveengineering:metal:15>);
         //electrum
+            furnace.addRecipe(<gregtech:meta_ingot:277>, <immersiveengineering:metal:16>, 0.5);
         //steel - needs blast furnace
     }
     
