@@ -56,6 +56,7 @@ suggest changing this to
         add blueprint recipes
         add crusher recipes
         add furnace recipes
+         add arc furnace recipes
 
 100 - JEI Hide
 
