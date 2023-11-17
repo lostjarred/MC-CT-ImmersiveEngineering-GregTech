@@ -14,6 +14,7 @@ print("START: Immersive Engineering: Arc Furnace: Remove");
         //aluminium
             mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:1>);
         //lead
+            mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:2>);
         //silver
         //nickel
         //uranium
