@@ -20,6 +20,7 @@ print("START: Immersive Engineering: Arc Furnace: Add");
         //lead
             mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_ingot:55> * 2, <ore:oreLead>, slag_item, time_ticks, energy_ticks);
         //silver
+            mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_ingot:100> * 2, <ore:oreSilver>, slag_item, time_ticks, energy_ticks);
         //nickel
         //uranium
     }
