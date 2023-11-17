@@ -46,6 +46,7 @@ print("START: Immersive Engineering: Crusher : Remove");
                 mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:sandstone:2>);
         //sulphur
             //blaze rods
+                mods.immersiveengineering.Crusher.removeRecipesForInput(<minecraft:blaze_rod>);
     }
     
     remove_ingot_grit_recipes();

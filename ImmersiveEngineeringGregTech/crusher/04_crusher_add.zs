@@ -47,6 +47,8 @@ print("START: Immersive Engineering: Crusher : Add");
                 mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand> * 2, <minecraft:sandstone:1>, 1600, gt_nitrite, 0.50);
             //smooth
                 mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand> * 2, <minecraft:sandstone:2>, 1600, gt_nitrite, 0.50);
+        //blaze rod 3200
+            mods.immersiveengineering.Crusher.addRecipe(<minecraft:blaze_powder> * 4, <minecraft:blaze_rod>, 3200, <gregtech:meta_dust:103>, 0.50);
     }
 
     add_ingot_dust_recipes();
