@@ -40,7 +40,7 @@ print("START: Immersive Engineering: Crusher : Add");
 
     function add_misc_recipes() {
         //sandstone 1600
-            val gt_nitrite = <gregtech:meta_dust:313>
+            val gt_nitrite = <gregtech:meta_dust:313>;
             //sandstone
                 mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand> * 2, <minecraft:sandstone>, 1600, gt_nitrite, 0.50);
             //chiseled
