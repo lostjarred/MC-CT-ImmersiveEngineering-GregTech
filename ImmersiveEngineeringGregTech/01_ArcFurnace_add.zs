@@ -30,14 +30,19 @@ print("START: Immersive Engineering: Arc Furnace: Add");
     function alloy_recipe_add() {
         val energy_ticks = 512;
         val time_ticks = 100;
+        //electrum
     }
 
     function dust_ingot_recipe_add() {
         val energy_ticks = 512;
         val time_ticks = 200;
         //aluminium
+            mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_ingot:2>, <ore:dustAluminium>, slag_item, time_ticks, energy_ticks);
+        //steel
     }
 
     ore_ingot_recipe_add();
+    alloy_recipe_add();
+    dust_ingot_recipe_add();
 
 print("END: Immersive Engineering: Arc Furnace: Add");
