@@ -107,6 +107,8 @@ print("START: Immersive Engineering : JEI : hide ");
             mods.jei.JEI.hide(<immersiveengineering:metal:19>);
         //nitrate
             mods.jei.JEI.removeAndHide(<immersiveengineering:material:24>);
+        //sulfur
+            mods.jei.JEI.removeAndHide(<immersiveengineering:material:25>);
     }
 
     function hide_misc() {
