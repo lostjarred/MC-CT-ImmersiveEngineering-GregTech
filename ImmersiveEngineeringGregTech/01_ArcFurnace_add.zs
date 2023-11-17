@@ -17,11 +17,22 @@ print("START: Immersive Engineering: Arc Furnace: Add");
         val slag_item = <immersiveengineering:material:7>;
         //coppper
             mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_ingot:25> * 2, <ore:oreCopper>, slag_item, time_ticks, energy_ticks);
+        //lead
+            mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_ingot:55> * 2, <ore:oreLead>, slag_item, time_ticks, energy_ticks);
+        //silver
+        //nickel
+        //uranium
     }
     
     function alloy_recipe_add() {
         val energy_ticks = 512;
         val time_ticks = 100;
+    }
+
+    function dust_ingot_recipe_add() {
+        val energy_ticks = 512;
+        val time_ticks = 200;
+        //aluminium
     }
 
     ore_ingot_recipe_add();
