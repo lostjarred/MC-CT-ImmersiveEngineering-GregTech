@@ -38,5 +38,17 @@ print("START: Immersive Engineering: Crusher : Add");
             mods.immersiveengineering.Crusher.addRecipe(<gregtech:meta_dust:41>, <ore:ingotGold>, energy_int);
     }
 
+    function add_misc_recipes() {
+        //sandstone 1600
+            val gt_nitrite = <gregtech:meta_dust:313>
+            //sandstone
+                mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand> * 2, <minecraft:sandstone>, 1600, gt_nitrite, 0.50);
+            //chiseled
+                mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand> * 2, <minecraft:sandstone:1>, 1600, gt_nitrite, 0.50);
+            //smooth
+                mods.immersiveengineering.Crusher.addRecipe(<minecraft:sand> * 2, <minecraft:sandstone:2>, 1600, gt_nitrite, 0.50);
+    }
+
     add_ingot_dust_recipes();
+    add_misc_recipes();
 print("END: Immersive Engineering: Crusher : Add");
