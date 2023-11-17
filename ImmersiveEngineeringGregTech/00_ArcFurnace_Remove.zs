@@ -12,6 +12,7 @@ print("START: Immersive Engineering: Arc Furnace: Remove");
         //coppper
             mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal>);
         //aluminium
+            mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:1>);
         //lead
         //silver
         //nickel
