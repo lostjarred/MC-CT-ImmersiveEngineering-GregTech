@@ -36,6 +36,7 @@ suggest changing this to
 
 900 -   Excavator Add Gregtech Veins, 
         crafting replace all occurances
+        add oredict
 
 510 -   Crusher Remove Ores, 
         remove metal press plate recipes, 
