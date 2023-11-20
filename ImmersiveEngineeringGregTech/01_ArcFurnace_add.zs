@@ -41,6 +41,7 @@ print("START: Immersive Engineering: Arc Furnace: Add");
         //aluminium
             mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_ingot:2>, <ore:dustAluminium>, slag_item, time_ticks, energy_ticks);
         //steel
+            mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_ingot:324>, <ore:dustSteel>, slag_item, time_ticks, energy_ticks);
     }
 
     ore_ingot_recipe_add();
