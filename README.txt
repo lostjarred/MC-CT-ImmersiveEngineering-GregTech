@@ -39,8 +39,8 @@ suggest changing this to
         add oredict
 
 510 -   Crusher Remove Ores, 
-        remove metal press plate recipes, 
-        remove metal press gear recipes, 
+        remove metal press plate recipes
+        remove metal press gear recipes
         remove recipes
         remove blueprint recipes
         metal press remove rods
@@ -48,16 +48,17 @@ suggest changing this to
         crusher remove recipes
         remove arc furnace recipes
 
-500 -   Crusher Add Ores, 
-        Bottler Clean Ores, 
-        add metal press plate recipes, 
-        add metal press gear recipes, 
-        add metal press wire recipes, 
+500 -   Crusher Add Ores
+        Bottler Clean Ores
+        add metal press plate recipes
+        add metal press gear recipes
+        add metal press wire recipes
         add crafting recipes
         add blueprint recipes
         add crusher recipes
         add furnace recipes
-         add arc furnace recipes
+        add arc furnace recipes
+        add metal press rod recipes
 
 100 - JEI Hide
 
