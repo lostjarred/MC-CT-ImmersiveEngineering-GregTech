@@ -15,7 +15,7 @@ print("START: Immersive Engineering Metal Press: Add Rods");
         val mold = <immersiveengineering:mold:2>;
         val input_size = 1;
         print("adding metal press plate recipe for " +  rod.commandString + " " + rod.name + " using " + plate.commandString);
-        mods.immersiveengineering.MetalPress.addRecipe(rod, plate, mold, energy, input_size);
+        mods.immersiveengineering.MetalPress.addRecipe(rod * 2, plate, mold, energy, input_size);
     }
 
     //iron
