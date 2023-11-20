@@ -26,6 +26,8 @@ print("START: Immersive Engineering: Arc Furnace: Remove");
     function remove_alloy_recipes() {
         //steel
             mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:8>);
+        //electrum
+            mods.immersiveengineering.ArcFurnace.removeRecipe(<immersiveengineering:metal:7>);
     }
 
     remove_ores_recipe();
