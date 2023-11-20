@@ -26,12 +26,20 @@ print("START: Immersive Engineering: Arc Furnace: Add");
         //uranium
             mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_ingot:116> * 2, <ore:oreUranium>, slag_item, time_ticks, energy_ticks);
     }
-    
+
+    //??Create static function to gen alloy recipes ??
     function alloy_recipe_add() {
         val energy_ticks = 512;
         val time_ticks = 100;
         val slag_item = <immersiveengineering:material:7>;
         //electrum
+            mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_ingot:277>, <ore:ingotGold>, slag_item, time_ticks, energy_ticks, [<ore:ingotSilver>], "Alloying");
+            mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_ingot:277>, <ore:ingotGold>, slag_item, time_ticks, energy_ticks, [<ore:dustSilver>], "Alloying");
+            
+            mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_ingot:277>, <ore:ingotSilver>, slag_item, time_ticks, energy_ticks, [<ore:ingotGold>], "Alloying");
+            mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_ingot:277>, <ore:dustSilver>, slag_item, time_ticks, energy_ticks, [<ore:ingotGold>], "Alloying");
+            
+            mods.immersiveengineering.ArcFurnace.addRecipe(<gregtech:meta_ingot:277>, <ore:dustSilver>, slag_item, time_ticks, energy_ticks, [<ore:dustGold>], "Alloying");
     }
 
     function dust_ingot_recipe_add() {
