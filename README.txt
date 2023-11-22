@@ -47,6 +47,7 @@ suggest changing this to
         remove furnace recipes
         crusher remove recipes
         remove arc furnace recipes
+        remove blast furnace recipes
 
 500 -   Crusher Add Ores
         Bottler Clean Ores
