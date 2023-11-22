@@ -13,15 +13,29 @@ print("START: Immersive Engineering Metal Press: Add Rods");
     */
 
     function add_metalpress_rod_recipe(rod as IItemStack, plate as IIngredient) {
-        val energy = 1000;
+        val energy = 2400;
         val mold = <immersiveengineering:mold:2>;
         val input_size = 1;
         print("adding metal press plate recipe for " +  rod.commandString + " " + rod.name + " using " + plate.commandString);
         mods.immersiveengineering.MetalPress.addRecipe(rod * 2, plate, mold, energy, input_size);
     }
 
-    //iron
-    add_metalpress_rod_recipe( uf.getItemstack(<ore:stickIron>) , <ore:plateIron>);
+    val metal_string_array = [
+        "Aluminium"
+        "Iron"
+    ]as string[];
 
+    for metal_string in metal_string_array {
+        //get plate and rod strings
+            var plate_string = "plate" + metal_string;
+            var stick_string = "stick" + metal_string;
+        //get oredict entrys
+            var plate_oredict = oreDict.get(plate_string);
+            var stick_oredict = oreDict.get(stick_string);
+        //turn stick oredict into itemstack
+            var stick_iitemstack = uf.getItemstack(stick_oredict);
+        //run function
+            add_metalpress_rod_recipe(stick_iitemstack, plate_oredict);
+    }
 
 print("END: Immersive Engineering Metal Press: Add Rods");
