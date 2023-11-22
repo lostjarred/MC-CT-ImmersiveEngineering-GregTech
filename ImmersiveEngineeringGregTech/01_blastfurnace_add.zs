@@ -13,5 +13,6 @@ print("START: Immersive Engineering Blast Furnace: Add");
         val gtsteelingot = <gregtech:meta_ingot:324>;
         val ieslag = <immersiveengineering:material:7>;
         mods.immersiveengineering.BlastFurnace.addRecipe(gtsteelingot, <ore:ingotIron>, 2000, ieslag);
+        mods.immersiveengineering.BlastFurnace.addRecipe(gtsteelingot, <ore:dustSteel>, 2000, ieslag);
         
 print("END: Immersive Engineering Blast Furnace: Add");
