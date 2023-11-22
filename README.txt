@@ -60,6 +60,7 @@ suggest changing this to
         add furnace recipes
         add arc furnace recipes
         add metal press rod recipes
+        add blast furnace recipes
 
 100 - JEI Hide
 
