@@ -75,14 +75,6 @@ suggest changing this to
         - add iron rods
         - add steel rods
         - add alumium rods
-        - remove iron rods
-        - remove steel rods
-        - remove aluminium rods
-
-    Hide from JEI removed items
-        - iron rods
-        - steel rods
-        - aluminium rods
 
     Replace crusher recipes ingot to dust
     Replace grit to ingot recipes 
