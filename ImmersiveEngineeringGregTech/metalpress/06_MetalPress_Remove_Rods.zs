@@ -7,10 +7,15 @@ print("START: Immersive Engineering Metal Press: Remove Rods");
         mods.immersiveengineering.MetalPress.removeRecipe(IItemstack output);
         mods.immersiveengineering.MetalPress.removeRecipe(<minecraft:diamond>);
     */
-    //iron
-        mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:1>);
-    //steel
-        mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:2>);
-    //aluminium
-        mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:3>);
+    function remove_metal_press_rod_recipes() {
+        //Immersive engineering
+            //iron
+                mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:1>);
+            //steel
+                mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:2>);
+            //aluminium
+                mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:material:3>);
+    }
+
+    remove_metal_press_rod_recipes();
 print("END: Immersive Engineering Metal Press: Remove Rods");
