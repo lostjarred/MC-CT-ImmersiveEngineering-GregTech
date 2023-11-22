@@ -2,6 +2,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import scripts.ImmersiveEngineeringGregTech.Util_Functions as uf;
+
 print("START: Immersive Engineering Metal Press: Add Rods");
     
     /*
@@ -19,7 +21,7 @@ print("START: Immersive Engineering Metal Press: Add Rods");
     }
 
     //iron
-    add_metalpress_rod_recipe(<gregtech:meta_stick:51>, <ore:plateIron>);
+    add_metalpress_rod_recipe( uf.getItemstack(<ore:stickIron>) , <ore:plateIron>);
 
 
 print("END: Immersive Engineering Metal Press: Add Rods");
