@@ -7,7 +7,7 @@ import crafttweaker.oredict.IOreDictEntry;
 print("START: util functions");
 
 function getItemstack(input as IOreDictEntry) as IItemStack {
-    //returns a prefered mod itemstacl from oredict recipe
+    //returns a prefered mod itemstack from oredicts for recipe
     val preferedmod = "gregtech" as string;
     var return_item = input.firstItem as IItemStack;
     for item in input.items {
