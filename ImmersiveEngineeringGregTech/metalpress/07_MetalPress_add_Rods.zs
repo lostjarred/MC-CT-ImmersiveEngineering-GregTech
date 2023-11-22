@@ -27,6 +27,7 @@ print("START: Immersive Engineering Metal Press: Add Rods");
         "Cobalt",
         "Copper",
         "Darmstadtium",
+        "Europium",
         "Iron"
     ]as string[];
 
