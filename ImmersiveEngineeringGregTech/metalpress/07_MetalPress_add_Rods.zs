@@ -22,6 +22,7 @@ print("START: Immersive Engineering Metal Press: Add Rods");
 
     val metal_string_array = [
         "Aluminium",
+        "Americium",
         "Iron"
     ]as string[];
 
