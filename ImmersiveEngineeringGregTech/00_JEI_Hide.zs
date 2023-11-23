@@ -124,6 +124,7 @@ print("START: Immersive Engineering : JEI : hide ");
             mods.jei.JEI.removeAndHide(<immersiveengineering:metal:5>);
         //constantan
         //elctrum
+            mods.jei.JEI.removeAndHide(<immersiveengineering:metal:7>);
         //steel
     }
 
