@@ -126,6 +126,7 @@ print("START: Immersive Engineering : JEI : hide ");
         //elctrum
             mods.jei.JEI.removeAndHide(<immersiveengineering:metal:7>);
         //steel
+            mods.jei.JEI.removeAndHide(<immersiveengineering:metal:8>);
     }
 
     function hide_misc() {
