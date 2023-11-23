@@ -111,6 +111,18 @@ print("START: Immersive Engineering : JEI : hide ");
             mods.jei.JEI.removeAndHide(<immersiveengineering:material:25>);
     }
 
+    function hide_ingots() {
+        //copper
+            mods.jei.JEI.removeAndHide(<immersiveengineering:metal>);
+        //aluminium
+        //lead
+        //silver
+        //urainium
+        //constantan
+        //elctrum
+        //steel
+    }
+
     function hide_misc() {
         //vacuum tube
             mods.jei.JEI.hide(<immersiveengineering:material:26>);
@@ -131,5 +143,6 @@ print("START: Immersive Engineering : JEI : hide ");
     hide_rods();
     hide_nuggets();
     hide_grit();
+    hide_ingots();
     hide_misc();
 print("END: Immersive Engineering : JEI : hide ");
