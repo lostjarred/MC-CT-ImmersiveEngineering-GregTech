@@ -37,6 +37,7 @@ print("START: Immersive Engineering Metal Press: Add Rods");
         "Neodymium",
         "Osmium",
         "Palladium",
+        "Platinum",
     ]as string[];
 
     for metal_string in metal_string_array {
