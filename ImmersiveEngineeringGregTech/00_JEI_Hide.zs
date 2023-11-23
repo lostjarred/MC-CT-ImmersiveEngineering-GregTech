@@ -115,6 +115,7 @@ print("START: Immersive Engineering : JEI : hide ");
         //copper
             mods.jei.JEI.removeAndHide(<immersiveengineering:metal>);
         //aluminium
+            mods.jei.JEI.removeAndHide(<immersiveengineering:metal:1>);
         //lead
         //silver
         //urainium
