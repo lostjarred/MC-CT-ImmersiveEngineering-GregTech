@@ -119,6 +119,7 @@ print("START: Immersive Engineering : JEI : hide ");
         //lead
             mods.jei.JEI.removeAndHide(<immersiveengineering:metal:2>);
         //silver
+            mods.jei.JEI.removeAndHide(<immersiveengineering:metal:3>);
         //urainium
         //constantan
         //elctrum
