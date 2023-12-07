@@ -51,8 +51,9 @@ print("START: Immersive Engineering Metal Press: Replace Rods");
         "Uranium238",
         "Uranium235",
         "Zinc",
+        "Naquadah"
     ]as string[];
-
+    
     for metal_string in metal_string_array {
         //get plate and rod strings
             var plate_string = "plate" + metal_string;
