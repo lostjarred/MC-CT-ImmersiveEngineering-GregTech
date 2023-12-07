@@ -4,19 +4,21 @@ import crafttweaker.item.IIngredient;
 
 import scripts.ImmersiveEngineeringGregTech.Util_Functions as uf;
 
-print("START: Immersive Engineering Metal Press: Add Rods");
+print("START: Immersive Engineering Metal Press: Replace Rods");
     
     /*
         mods.immersiveengineering.MetalPress.addRecipe(IItemStack output, IIngredient input, IItemStack mold, int energy, @Optional int inputSize);
         mods.immersiveengineering.MetalPress.addRecipe(<minecraft:diamond>, <ore:logWood>, <minecraft:emerald>, 2000);
         mods.immersiveengineering.MetalPress.addRecipe(<minecraft:diamond>, <ore:logWood>, <minecraft:emerald>, 2000, 16);
+
+        mods.immersiveengineering.MetalPress.removeRecipe(IItemstack output);
     */
 
     function add_metalpress_rod_recipe(rod as IItemStack, plate as IIngredient) {
         val energy = 2400;
         val mold = <immersiveengineering:mold:2>;
         val input_size = 1;
-        print("adding metal press rod recipe for " +  rod.commandString + " " + rod.name + " using " + plate.commandString);
+        print("replacing metal press rod recipe for " +  rod.commandString + " " + rod.name + " using " + plate.commandString);
         mods.immersiveengineering.MetalPress.addRecipe(rod * 2, plate, mold, energy, input_size);
     }
     val metal_string_array = [
@@ -50,8 +52,10 @@ print("START: Immersive Engineering Metal Press: Add Rods");
             var stick_oredict = oreDict.get(stick_string);
         //turn stick oredict into itemstack
             var stick_iitemstack = uf.getItemstack(stick_oredict);
+        //remove existing recipe
+            mods.immersiveengineering.MetalPress.removeRecipe(stick_iitemstack);
         //run function
             add_metalpress_rod_recipe(stick_iitemstack, plate_oredict);
     }
 
-print("END: Immersive Engineering Metal Press: Add Rods");
+print("END: Immersive Engineering Metal Press: Replace Rods");
