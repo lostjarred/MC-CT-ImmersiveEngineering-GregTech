@@ -49,7 +49,8 @@ print("START: Immersive Engineering Metal Press: Replace Rods");
         "Titanium",
         "Tungsten",
         "Uranium238",
-        "Uranium235"
+        "Uranium235",
+        "Zinc",
     ]as string[];
 
     for metal_string in metal_string_array {
