@@ -19,7 +19,6 @@ print("START: Immersive Engineering Metal Press: Add Rods");
         print("adding metal press rod recipe for " +  rod.commandString + " " + rod.name + " using " + plate.commandString);
         mods.immersiveengineering.MetalPress.addRecipe(rod * 2, plate, mold, energy, input_size);
     }
-
     val metal_string_array = [
         "Aluminium",
         "Americium",
@@ -33,7 +32,7 @@ print("START: Immersive Engineering Metal Press: Add Rods");
         "Iron",
         "Lead",
         "Manganese",
-        "Molybdeum",
+        "Molybdenum",
         "Neodymium",
         "Osmium",
         "Palladium",
