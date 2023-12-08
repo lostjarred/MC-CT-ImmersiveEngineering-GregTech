@@ -54,7 +54,8 @@ print("START: Immersive Engineering Metal Press: Replace Rods");
         "Naquadah",
         "NaquadahEnriched",
         "Naquadria",
-        "Neutronium"
+        "Neutronium",
+        "Tritanium"
     ]as string[];
     
     for metal_string in metal_string_array {
