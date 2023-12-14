@@ -72,7 +72,8 @@ print("START: Immersive Engineering Metal Press: Replace Rods");
         "NiobiumTitanium",
         "SterlingSilver",
         "RoseGold",
-        "BlackBronze"
+        "BlackBronze",
+        "BismuthBronze"
     ]as string[];
     
     for metal_string in metal_string_array {
