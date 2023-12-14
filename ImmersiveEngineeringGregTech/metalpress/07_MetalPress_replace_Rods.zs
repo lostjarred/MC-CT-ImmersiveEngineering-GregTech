@@ -67,7 +67,8 @@ print("START: Immersive Engineering Metal Press: Replace Rods");
         "Invar",
         "Kanthal",
         "Magnalium",
-        "Nichrome"
+        "Nichrome",
+        "NiobiumNitride"
     ]as string[];
     
     for metal_string in metal_string_array {
