@@ -12,6 +12,7 @@ currently
  - replaces plateAluminum with plateAluminium in crafting recipes
 
 Version 1.12.2
+Tested with Gregtech CEU version : 2.8.3 - beta
 
 ==-- Info --==
 there are known visual problem with ore sample and excavtor due to the way Immersive Engineering handles this, 
