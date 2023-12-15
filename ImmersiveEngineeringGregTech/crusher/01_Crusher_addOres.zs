@@ -350,7 +350,7 @@ function addCrusher_Recipe(output as IItemStack, input as IIngredient, secondary
     //zeolite
         addNonGemOreProcessing("Zeolite", 6, "Calcium");
     //redstone
-        addGemOreProcessing("Redstone", 10, "Cinnabar");
+        addNonGemOreProcessing("Redstone", 10, "Cinnabar");
     //electrotine
         addNonGemOreProcessing("Electrotine", 10, "Redstone");
     //diatomite
