@@ -27,7 +27,7 @@ print("START: Immersive Engineering Metal Press: Add Gears");
         //turn oredict into iitemstack for output
         var gear_itemstack = utils.getItemstack(gear_oredict);
 
-        print("adding metal press gear recipe for " +  gear_itemstack.commandString + " " + gear_itemstack.name + " using " + plate_oredict.commandString);
+        //print("adding metal press gear recipe for " +  gear_itemstack.commandString + " " + gear_itemstack.name + " using " + plate_oredict.commandString);
         mods.immersiveengineering.MetalPress.addRecipe(gear_itemstack, plate_oredict, gear_press, energy, platenum);
 
     }

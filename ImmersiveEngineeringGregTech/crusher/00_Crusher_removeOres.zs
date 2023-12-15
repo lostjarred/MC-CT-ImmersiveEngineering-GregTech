@@ -39,7 +39,7 @@ function removeOreprocess_Crusher(orename as string) {
 */
 
 function RemoveCrusherRecipe(input as IItemStack) {
-    print("removing crusher recipe for " +  input.commandString);
+    //print("removing crusher recipe for " +  input.commandString);
     mods.immersiveengineering.Crusher.removeRecipesForInput(input);
 }
 

@@ -30,7 +30,7 @@ function cleanOreMain(ore as string) {
 
 function add_bottler_recipe(output as IItemStack, input as IIngredient) {
     val fluid = <liquid:water> * 200;
-    print("Add bottling recipe for " + output.commandString + " using " + input.commandString);
+    //print("Add bottling recipe for " + output.commandString + " using " + input.commandString);
     mods.immersiveengineering.BottlingMachine.addRecipe(output, input, fluid);
 }
 

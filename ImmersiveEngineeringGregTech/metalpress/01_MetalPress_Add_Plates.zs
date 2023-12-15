@@ -16,7 +16,7 @@ function add_metalpress_plate_recipe(ingot as IIngredient, plate as IItemStack) 
     val energy = 1000;
     val plate_mold = <immersiveengineering:mold>;
     val input_size = 1;
-    print("adding metal press plate recipe for " +  plate.commandString + " " + plate.name + " using " + ingot.commandString);
+    //print("adding metal press plate recipe for " +  plate.commandString + " " + plate.name + " using " + ingot.commandString);
     mods.immersiveengineering.MetalPress.addRecipe(plate, ingot, plate_mold, energy, input_size);
 }
 

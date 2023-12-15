@@ -9,7 +9,7 @@ print("START: Immersive Engineering Metal Press: Remove Plates");
     mods.immersiveengineering.MetalPress.removeRecipe(<minecraft:diamond>);
 */
     function Remove_Metalpress_plate(plate as IItemStack) {
-        print("removing metal press plate recipe for " +  plate.commandString + " " + plate.name);
+        //print("removing metal press plate recipe for " +  plate.commandString + " " + plate.name);
         mods.immersiveengineering.MetalPress.removeRecipe(plate);
     }
     val plate_array_item = [

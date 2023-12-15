@@ -13,7 +13,7 @@ print("START: Immersive Engineering Metal Press: Remove Gears");
         //gear oredict
         var gear_oredict = oreDict.get(gear_string);
         for gear in gear_oredict.items{
-        print("removing metal press gear recipe for " +  gear.commandString + " " + gear.name);
+        //print("removing metal press gear recipe for " +  gear.commandString + " " + gear.name);
         mods.immersiveengineering.MetalPress.removeRecipe(gear);
         }
     }
