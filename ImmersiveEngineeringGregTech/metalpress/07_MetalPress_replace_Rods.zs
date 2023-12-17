@@ -87,7 +87,8 @@ print("START: Immersive Engineering Metal Press: Replace Rods");
         "SiliconeRubber",
         "StyreneButadieneRubber",
         "PolyvinylChloride",
-        "PolyphenyleneSulfide"
+        "PolyphenyleneSulfide",
+        "Polytetrafluoroethylene"
     ]as string[];
     /*
         dont have plates
