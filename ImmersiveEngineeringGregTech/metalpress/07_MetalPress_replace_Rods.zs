@@ -83,12 +83,16 @@ print("START: Immersive Engineering Metal Press: Replace Rods");
         "WroughtIron",
         "YttriumBariumCuprate",
         "Osmiridium",
-        "TungstenCarbide"
+        "TungstenCarbide",
+        "SiliconeRubber"
     ]as string[];
     /*
         dont have plates
-        "NickelZincFerrite",
-        "IronMagnetic"
+        NickelZincFerrite
+        IronMagnetic
+        NeodymiumMagnetic
+        SamariumMagnetic
+        RtmAlloy
     */
     for metal_string in metal_string_array {
         //get plate and rod strings
