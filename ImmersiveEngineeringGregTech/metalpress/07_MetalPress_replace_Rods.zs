@@ -93,15 +93,18 @@ print("START: Immersive Engineering Metal Press: Replace Rods");
         "BlackSteel",
         "DamascusSteel",
         "TungstenSteel",
-        "CobaltBrass"
+        "CobaltBrass",
+        "VanadiumSteel"
     ]as string[];
     /*
         dont have plates
+        *gems
         NickelZincFerrite
         IronMagnetic
         NeodymiumMagnetic
         SamariumMagnetic
         RtmAlloy
+        MagneticSteel
     */
     for metal_string in metal_string_array {
         //get plate and rod strings
