@@ -91,7 +91,8 @@ print("START: Immersive Engineering Metal Press: Replace Rods");
         "Polytetrafluoroethylene",
         "Rubber",
         "BlackSteel",
-        "DamascusSteel"
+        "DamascusSteel",
+        "TungstenSteel"
     ]as string[];
     /*
         dont have plates
