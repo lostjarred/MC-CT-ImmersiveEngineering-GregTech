@@ -103,7 +103,8 @@ print("START: Immersive Engineering Metal Press: Replace Rods");
         "Hssg",
         "RedAlloy",
         "Hsse",
-        "Hsss"
+        "Hsss",
+        "BlueAlloy"
     ]as string[];
     /*
         dont have plates
