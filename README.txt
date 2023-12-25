@@ -74,11 +74,6 @@ suggest changing this to
         -mv
     Replace Mixing recipe for concrete - change from IE to GT
 
-    Metal Press 
-        - add iron rods
-        - add steel rods
-        - add alumium rods
-
     Replace crusher recipes ingot to dust
     Replace grit to ingot recipes 
     Add Bio diesel to GT Combustion
