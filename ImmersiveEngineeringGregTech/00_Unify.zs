@@ -24,6 +24,8 @@ print("START: Immersive Engineering : Recipe : Unify ");
             unify_resources(<gregtech:meta_ingot:69>, <immersiveengineering:metal:4>);
         //uranium
             unify_resources(<gregtech:meta_ingot:116>, <immersiveengineering:metal:5>);
+        //electrum 
+            unify_resources(<gregtech:meta_ingot:277>, <immersiveengineering:metal:7>);
     }
     
     unify_ingots();
