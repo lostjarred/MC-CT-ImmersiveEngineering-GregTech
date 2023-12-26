@@ -62,6 +62,7 @@ suggest changing this to
         add arc furnace recipes
         replace metal press rod recipes
         add blast furnace recipes
+        unify
 
 100 - JEI Hide
 
