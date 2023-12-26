@@ -20,6 +20,8 @@ print("START: Immersive Engineering : Recipe : Unify ");
             unify_resources(<gregtech:meta_ingot:55>, <immersiveengineering:metal:2>);
         //silver
             unify_resources(<gregtech:meta_ingot:100>, <immersiveengineering:metal:3>);
+        //nickel
+            unify_resources(<gregtech:meta_ingot:69>, <immersiveengineering:metal:4>);
     }
     
     unify_ingots();
