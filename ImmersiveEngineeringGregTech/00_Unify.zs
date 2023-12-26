@@ -14,6 +14,8 @@ print("START: Immersive Engineering : Recipe : Unify ");
     function unify_ingots() {
         //copper
             unify_resources(<gregtech:meta_ingot:25>, <immersiveengineering:metal>);
+        //aluminium
+            unify_resources(<gregtech:meta_ingot:2>, <immersiveengineering:metal:1>);
     }
     
     unify_ingots();
