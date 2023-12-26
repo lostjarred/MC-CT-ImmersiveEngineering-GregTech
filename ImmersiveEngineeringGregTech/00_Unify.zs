@@ -1,4 +1,4 @@
-#priority 100
+#priority 500
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
@@ -16,6 +16,8 @@ print("START: Immersive Engineering : Recipe : Unify ");
             unify_resources(<gregtech:meta_ingot:25>, <immersiveengineering:metal>);
         //aluminium
             unify_resources(<gregtech:meta_ingot:2>, <immersiveengineering:metal:1>);
+        //lead
+            unify_resources(<gregtech:meta_ingot:55>, <immersiveengineering:metal:2>);
     }
     
     unify_ingots();
