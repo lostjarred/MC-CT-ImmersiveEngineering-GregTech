@@ -73,7 +73,6 @@ suggest changing this to
         -ulv
         -lv
         -mv
-    Replace Mixing recipe for concrete - change from IE to GT
 
     Replace crusher recipes ingot to dust
     Replace grit to ingot recipes 
