@@ -25,5 +25,14 @@ print("START: Crafting : Replace all occurences");
         recipes.replaceAllOccurences(<immersiveengineering:material:26>, gtvacumtube);
     //replace circuit board
         recipes.replaceAllOccurences(<immersiveengineering:material:27>, <ore:circuitLv>);
+    //replace constantantan with cupronickel
+        //ingot
+            val IE_constantan_ingot = <immersiveengineering:metal:6>;
+            val GT_cupronickel_ingot = <gregtech:meta_ingot:274>;
+            recipes.replaceAllOccurences(IE_constantan_ingot, GT_cupronickel_ingot);
+        //plate
+            val IE_constantan_plate = <immersiveengineering:metal:36>;
+            val GT_cupronickel_plate = <gregtech:meta_plate:274>;
+            recipes.replaceAllOccurences(IE_constantan_plate, GT_cupronickel_plate);
 
 print("END: Crafting : Replace all occurences");
