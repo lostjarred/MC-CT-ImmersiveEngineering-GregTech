@@ -74,6 +74,12 @@ print("START: Immersive Engineering : Add crafting recipes");
                 [<ore:plateSteel>],
                 [gtfirebrick]
             ]);
+        //concrete convert from gt to ie
+            val gtconcrete = <gregtech:stone_smooth:4>;
+            recipes.addShaped(<immersiveengineering:stone_decoration:5>, 
+            [
+                [gtconcrete]
+            ]);
     }
     
     add_tool_recipes();
