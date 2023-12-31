@@ -103,6 +103,11 @@ print("START: Immersive Engineering : Remove crafting recipes");
             recipes.removeByRecipeName("immersiveengineering:metal_decoration/aluminum_scaffolding");
         //reinforced blast brick
             recipes.removeByRecipeName("immersiveengineering:stone_decoration/blastbrick_reinforced");
+        //concrete recipes
+            //1
+                recipes.removeByRecipeName("immersiveengineering:stone_decoration/concrete2");
+            //2
+                recipes.removeByRecipeName("immersiveengineering:stone_decoration/concrete");
     }
 
     remove_wire_recipes();
