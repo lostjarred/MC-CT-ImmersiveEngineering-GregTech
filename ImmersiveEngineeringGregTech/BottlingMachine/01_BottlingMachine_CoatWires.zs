@@ -27,11 +27,17 @@ print("START: Immersive Engineering: Bottling Machine: Coat wires ");
         mods.immersiveengineering.BottlingMachine.addRecipe(output, input, rubber_liquid);
     }
 
+    function coat16xwire(output as IItemStack, input as IIngredient) { 
+        val rubber_liquid = <liquid:rubber> * 720;
+        mods.immersiveengineering.BottlingMachine.addRecipe(output, input, rubber_liquid);
+    }
+
     //copper
         coat1xwire(<gregtech:cable_single:25>, <ore:wireGtSingleCopper>);
         coat2xwire(<gregtech:cable_double:25>, <ore:wireGtDoubleCopper>);
         coat4xwire(<gregtech:cable_quadruple:25>, <ore:wireGtQuadrupleCopper>);
         coat8xwire(<gregtech:cable_octal:25>, <ore:wireGtOctalCopper>);
+        coat16xwire(<gregtech:cable_hex:25>, <ore:wireGtHexCopper>);
     //electrum
         coat1xwire(<gregtech:cable_single:277>, <ore:wireGtSingleElectrum>);
 
