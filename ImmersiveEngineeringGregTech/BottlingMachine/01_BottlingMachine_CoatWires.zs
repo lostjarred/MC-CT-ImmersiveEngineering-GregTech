@@ -43,5 +43,6 @@ print("START: Immersive Engineering: Bottling Machine: Coat wires ");
         coat2xwire(<gregtech:cable_double:277>, <ore:wireGtDoubleElectrum>);
         coat4xwire(<gregtech:cable_quadruple:277>, <ore:wireGtQuadrupleElectrum>);
         coat8xwire(<gregtech:cable_octal:277>, <ore:wireGtOctalElectrum>);
+        coat16xwire(<gregtech:cable_hex:277>, <ore:wireGtHexElectrum>);
 
 print("END: Immersive Engineering: Bottling Machine: Coat wires ");
