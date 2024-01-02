@@ -63,6 +63,7 @@ suggest changing this to
         replace metal press rod recipes
         add blast furnace recipes
         unify
+        coat wires bottling machine
 
 100 - JEI Hide
 
