@@ -60,7 +60,7 @@ print("START: Immersive Engineering : Blueprint : add ");
     //lv circuit
         val gtlvcircuit = <gregtech:meta_item_1:621>;
         mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtlvcircuit * 2,
-                [gtlvcircuitboard, gtresistor * 2, <ore:wireGtSingleRedAlloy> * 2, <ore:circuitUlv>]
+                [gtlvcircuitboard, gtresistor * 2, <ore:wireGtSingleRedAlloy> * 2, <ore:circuitUlv> * 2]
         );
 
 print("END: Immersive Engineering : Blueprint : add ");
