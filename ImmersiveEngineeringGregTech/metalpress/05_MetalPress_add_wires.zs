@@ -24,4 +24,8 @@ print("START: Immersive Engineering Metal Press: Add wires");
     
     wire = utils.getItemstack(<ore:wireGtSingleSteel>);
     mods.immersiveengineering.MetalPress.addRecipe(wire * output_num, <ore:plateSteel>, mold, energyuse);
+    
+    //red alloy
+        wire = utils.getItemstack(<ore:wireGtSingleRedAlloy>);
+        mods.immersiveengineering.MetalPress.addRecipe(wire * output_num, <ore:plateRedAlloy>, mold, energyuse);
 print("END: Immersive Engineering Metal Press: Add wires");
