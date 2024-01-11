@@ -25,21 +25,18 @@ print("START: Immersive Engineering Metal Press: Add wires");
         //metal press
             mods.immersiveengineering.MetalPress.addRecipe(wireitemstack * outputnum, plate_oredict, mold, energy);
     }
-    val energyuse = 2000 as int;
-    val mold = <immersiveengineering:mold:4>;
-    val output_num = 2 as int;
-    var wire = utils.getItemstack(<ore:wireGtSingleCopper>);
-    mods.immersiveengineering.MetalPress.addRecipe(wire * output_num, <ore:plateCopper>, mold, energyuse);
+    //copper
+    add_wire_recipe("Copper");
+
+    //electrum
+    add_wire_recipe("Electrum");
     
-    wire = utils.getItemstack(<ore:wireGtSingleElectrum>);
-    mods.immersiveengineering.MetalPress.addRecipe(wire * output_num, <ore:plateElectrum>, mold, energyuse);
-    
-    wire = utils.getItemstack(<ore:wireGtSingleAluminium>);
-    mods.immersiveengineering.MetalPress.addRecipe(wire * output_num, <ore:plateAluminium>, mold, energyuse);
-    
-    wire = utils.getItemstack(<ore:wireGtSingleSteel>);
-    mods.immersiveengineering.MetalPress.addRecipe(wire * output_num, <ore:plateSteel>, mold, energyuse);
-    
+    //aluminium
+    add_wire_recipe("Aluminium");
+
+    //steel
+    add_wire_recipe("Steel");
+
     //red alloy
         add_wire_recipe("RedAlloy");
 print("END: Immersive Engineering Metal Press: Add wires");
