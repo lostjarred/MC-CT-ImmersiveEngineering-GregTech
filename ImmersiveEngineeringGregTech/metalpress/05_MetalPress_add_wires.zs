@@ -10,6 +10,21 @@ print("START: Immersive Engineering Metal Press: Add wires");
         mods.immersiveengineering.MetalPress.addRecipe(<minecraft:diamond>, <ore:logWood>, <minecraft:emerald>, 2000);
         mods.immersiveengineering.MetalPress.addRecipe(<minecraft:diamond>, <ore:logWood>, <minecraft:emerald>, 2000, 16);
     */
+    function add_wire_recipe(metal as string) {
+        val energy = 2000;
+        val mold = <immersiveengineering:mold:4>;
+        val outputnum = 2;
+        //strings
+            var wirestring = "wireGtSingle" + metal; 
+            var platestring =  "plate" + metal;
+        //oredict 
+            var wire_oredict = oreDict.get(wirestring);
+            var plate_oredict = oreDict.get(platestring);
+        //turn wire oredict into itemstack
+            var wireitemstack = utils.getItemstack(wire_oredict);
+        //metal press
+            mods.immersiveengineering.MetalPress.addRecipe(wireitemstack * outputnum, plate_oredict, mold, energy);
+    }
     val energyuse = 2000 as int;
     val mold = <immersiveengineering:mold:4>;
     val output_num = 2 as int;
@@ -26,6 +41,5 @@ print("START: Immersive Engineering Metal Press: Add wires");
     mods.immersiveengineering.MetalPress.addRecipe(wire * output_num, <ore:plateSteel>, mold, energyuse);
     
     //red alloy
-        wire = utils.getItemstack(<ore:wireGtSingleRedAlloy>);
-        mods.immersiveengineering.MetalPress.addRecipe(wire * output_num, <ore:plateRedAlloy>, mold, energyuse);
+        add_wire_recipe("RedAlloy");
 print("END: Immersive Engineering Metal Press: Add wires");
