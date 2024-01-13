@@ -37,6 +37,7 @@ print("START: Immersive Engineering Metal Press: Add wires");
         "Platinum",
         "Silver",
         "Tin",
+        "Tritanium",
 
         "Electrum",
         "Steel",
