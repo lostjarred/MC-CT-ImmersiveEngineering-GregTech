@@ -2,6 +2,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+import scripts.ImmersiveEngineeringGregTech.Util_Functions as utils;
+
 print("START: Immersive Engineering: Bottling Machine: Coat wires ");
     /*
         mods.immersiveengineering.BottlingMachine.addRecipe(IItemStack output, IIngredient input, ILiquidStack fluid);
@@ -32,12 +34,44 @@ print("START: Immersive Engineering: Bottling Machine: Coat wires ");
         mods.immersiveengineering.BottlingMachine.addRecipe(output, input, rubber_liquid);
     }
 
+    function coatwires(wiremetal as string) {
+        //strings
+            var gt1x_string = "GtSingle";
+            var gt2x_string = "GtDouble";
+            var gt4x_string = "GtQuadruple";
+            var gt8x_string = "GtOctal";
+            var gt16x_string = "GtHex";
+            var wire_string = "wire";
+            var cable_string = "cable";
+        //oredicts
+            //cable
+                var cable_1x_oredict = oreDict.get(cable_string + gt1x_string + wiremetal);
+                var cable_2x_oredict = oreDict.get(cable_string + gt2x_string + wiremetal);
+                var cable_4x_oredict = oreDict.get(cable_string + gt4x_string + wiremetal);
+                var cable_8x_oredict = oreDict.get(cable_string + gt8x_string + wiremetal);
+                var cable_16x_oredict = oreDict.get(cable_string + gt16x_string + wiremetal);
+            //wire
+                var wire_1x_oredict = oreDict.get(wire_string + gt1x_string + wiremetal);
+                var wire_2x_oredict = oreDict.get(wire_string + gt2x_string + wiremetal);
+                var wire_4x_oredict = oreDict.get(wire_string + gt4x_string + wiremetal);
+                var wire_8x_oredict = oreDict.get(wire_string + gt8x_string + wiremetal);
+                var wire_16x_oredict = oreDict.get(wire_string + gt16x_string + wiremetal);
+        //itemstacks
+            var cable_1x_iitemstack = utils.getItemstack(cable_1x_oredict);
+            var cable_2x_iitemstack = utils.getItemstack(cable_2x_oredict);
+            var cable_4x_iitemstack = utils.getItemstack(cable_4x_oredict);
+            var cable_8x_iitemstack = utils.getItemstack(cable_8x_oredict);
+            var cable_16x_iitemstack = utils.getItemstack(cable_16x_oredict);
+        //recipes
+            coat1xwire(cable_1x_iitemstack, wire_1x_oredict);
+            coat2xwire(cable_2x_iitemstack, wire_2x_oredict);
+            coat4xwire(cable_4x_iitemstack, wire_4x_oredict);
+            coat8xwire(cable_8x_iitemstack, wire_8x_oredict);
+            coat16xwire(cable_16x_iitemstack, wire_16x_oredict);
+    }
+
     //copper
-        coat1xwire(<gregtech:cable_single:25>, <ore:wireGtSingleCopper>);
-        coat2xwire(<gregtech:cable_double:25>, <ore:wireGtDoubleCopper>);
-        coat4xwire(<gregtech:cable_quadruple:25>, <ore:wireGtQuadrupleCopper>);
-        coat8xwire(<gregtech:cable_octal:25>, <ore:wireGtOctalCopper>);
-        coat16xwire(<gregtech:cable_hex:25>, <ore:wireGtHexCopper>);
+        coatwires("Copper");
     //electrum
         coat1xwire(<gregtech:cable_single:277>, <ore:wireGtSingleElectrum>);
         coat2xwire(<gregtech:cable_double:277>, <ore:wireGtDoubleElectrum>);
