@@ -25,11 +25,12 @@ print("START: Immersive Engineering Metal Press: Add wires");
         //metal press
             mods.immersiveengineering.MetalPress.addRecipe(wireitemstack * outputnum, plate_oredict, mold, energy);
     }
-
+    //only use ulv recipes
     val wire_metal_array = [
         "Aluminium",
         "Cobalt",
         "Copper",
+        "Gold",
         "Electrum",
         "Steel",
         "RedAlloy"
