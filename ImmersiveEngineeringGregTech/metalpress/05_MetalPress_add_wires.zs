@@ -48,7 +48,8 @@ print("START: Immersive Engineering Metal Press: Add wires");
         "ManganesePhosphide",
         "MagnesiumDiboride",
         "BlackSteel",
-        "RedAlloy"
+        "RedAlloy",
+        "BlueAlloy"
     ] as string[];
 
     for wiremetal in wire_metal_array {
