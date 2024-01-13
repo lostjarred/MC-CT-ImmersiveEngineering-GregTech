@@ -27,9 +27,10 @@ print("START: Immersive Engineering Metal Press: Add wires");
     }
 
     val wire_metal_array = [
+        "Aluminium",
+        "Cobalt",
         "Copper",
         "Electrum",
-        "Aluminium",
         "Steel",
         "RedAlloy"
     ] as string[];
