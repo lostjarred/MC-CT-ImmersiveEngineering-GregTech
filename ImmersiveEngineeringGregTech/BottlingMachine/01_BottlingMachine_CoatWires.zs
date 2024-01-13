@@ -70,10 +70,13 @@ print("START: Immersive Engineering: Bottling Machine: Coat wires ");
             coat16xwire(cable_16x_iitemstack, wire_16x_oredict);
     }
 
-    //copper
-        coatwires("Copper");
-    //electrum
-        coatwires("Electrum");
-    //red alloy
-        coatwires("RedAlloy");
+    val wire_metal_array = [
+        "Copper",
+        "Electrum",
+        "RedAlloy",
+    ] as string[];
+
+    for wiremetal in wire_metal_array {
+        coatwires(wiremetal);
+    }
 print("END: Immersive Engineering: Bottling Machine: Coat wires ");
