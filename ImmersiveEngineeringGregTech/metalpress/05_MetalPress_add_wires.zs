@@ -42,6 +42,7 @@ print("START: Immersive Engineering Metal Press: Add wires");
         "Cupronickel",
         "Electrum",
         "Kanthal",
+        "Nichrome",
         
         "Steel",
         "RedAlloy"
