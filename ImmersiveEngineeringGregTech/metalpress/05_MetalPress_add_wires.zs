@@ -25,18 +25,16 @@ print("START: Immersive Engineering Metal Press: Add wires");
         //metal press
             mods.immersiveengineering.MetalPress.addRecipe(wireitemstack * outputnum, plate_oredict, mold, energy);
     }
-    //copper
-    add_wire_recipe("Copper");
 
-    //electrum
-    add_wire_recipe("Electrum");
-    
-    //aluminium
-    add_wire_recipe("Aluminium");
+    val wire_metal_array = [
+        "Copper",
+        "Electrum",
+        "Aluminium",
+        "Steel",
+        "RedAlloy"
+    ] as string[];
 
-    //steel
-    add_wire_recipe("Steel");
-
-    //red alloy
-        add_wire_recipe("RedAlloy");
+    for wiremetal in wire_metal_array {
+        add_wire_recipe(wiremetal);
+    }
 print("END: Immersive Engineering Metal Press: Add wires");
