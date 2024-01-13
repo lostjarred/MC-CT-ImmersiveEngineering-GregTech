@@ -45,7 +45,8 @@ print("START: Immersive Engineering Metal Press: Add wires");
         "Nichrome",
         "Steel",
         "Graphene",
-        "ManganesePhosphide"
+        "ManganesePhosphide",
+        "MagnesiumDiboride",
         "RedAlloy"
     ] as string[];
 
