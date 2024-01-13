@@ -40,8 +40,9 @@ print("START: Immersive Engineering Metal Press: Add wires");
         "Tritanium",
         "AnnealedCopper",
         "Cupronickel",
-
         "Electrum",
+        "Kanthal",
+        
         "Steel",
         "RedAlloy"
     ] as string[];
