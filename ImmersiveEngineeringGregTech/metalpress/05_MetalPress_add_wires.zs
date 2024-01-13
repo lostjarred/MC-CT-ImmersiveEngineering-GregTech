@@ -33,6 +33,7 @@ print("START: Immersive Engineering Metal Press: Add wires");
         "Gold",
         "Iron",
         "Lead",
+        "Nickel",
         "Electrum",
         "Steel",
         "RedAlloy"
