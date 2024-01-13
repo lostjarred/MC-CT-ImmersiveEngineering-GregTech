@@ -31,6 +31,7 @@ print("START: Immersive Engineering Metal Press: Add wires");
         "Cobalt",
         "Copper",
         "Gold",
+        "Iron",
         "Electrum",
         "Steel",
         "RedAlloy"
