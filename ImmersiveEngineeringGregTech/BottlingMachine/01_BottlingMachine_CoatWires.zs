@@ -71,9 +71,10 @@ print("START: Immersive Engineering: Bottling Machine: Coat wires ");
     }
 
     val wire_metal_array = [
-        "Copper",
         "Cobalt",
-
+        "Copper",
+        "Gold",
+        
         "Electrum",
         "RedAlloy",
     ] as string[];
