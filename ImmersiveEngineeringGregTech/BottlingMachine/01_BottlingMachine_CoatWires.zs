@@ -84,6 +84,7 @@ print("START: Immersive Engineering: Bottling Machine: Coat wires ");
         "Electrum",
         "Kanthal",
         "RedAlloy",
+        "BlueAlloy"
     ] as string[];
 
     for wiremetal in wire_metal_array {
