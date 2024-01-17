@@ -77,6 +77,7 @@ print("START: Immersive Engineering: Bottling Machine: Coat wires ");
         "Iron",
         "Lead",
         "Nickel",
+        "Silver",
         
         "Electrum",
         "RedAlloy",
