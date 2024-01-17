@@ -79,6 +79,7 @@ print("START: Immersive Engineering: Bottling Machine: Coat wires ");
         "Nickel",
         "Silver",
         "Tin",
+        "AnnealedCopper",
         "Electrum",
         "RedAlloy",
     ] as string[];
