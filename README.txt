@@ -70,11 +70,6 @@ suggest changing this to
 ==-- TODO list --==
     Add configs changes for toolbox
 
-    Add bottling recipe for cables
-        -ulv
-        -lv
-        -mv
-
     Replace crusher recipes ingot to dust
     Replace grit to ingot recipes 
     Add Bio diesel to GT Combustion
