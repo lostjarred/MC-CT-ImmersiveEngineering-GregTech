@@ -70,8 +70,6 @@ suggest changing this to
 ==-- TODO list --==
     Add configs changes for toolbox
 
-    Replace crusher recipes ingot to dust
-    Replace grit to ingot recipes 
     Add Bio diesel to GT Combustion
     Add GT Fuels to engine
 
