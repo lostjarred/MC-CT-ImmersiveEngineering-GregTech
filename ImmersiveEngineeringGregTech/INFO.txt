@@ -33,5 +33,6 @@ https://github.com/lostjarred/MC-CT-ImmersiveEngineering-GregTech
         replace metal press rod recipes
         add blast furnace recipes
         unify
+        Bottler add recipes
 
 100 - JEI Hide
