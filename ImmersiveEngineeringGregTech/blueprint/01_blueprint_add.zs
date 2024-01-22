@@ -62,5 +62,10 @@ print("START: Immersive Engineering : Blueprint : add ");
         mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtlvcircuit * 2,
                 [gtlvcircuitboard, gtresistor * 2, <ore:wireGtSingleRedAlloy> * 2, <ore:circuitUlv> * 2]
         );
+    //steel frame box 
+        val gtsteelframeboc = <gregtech:meta_block_frame_20:4>;
+        mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtsteelframeboc * 2,
+                [<ore:stickSteel> * 8]
+        );
 
 print("END: Immersive Engineering : Blueprint : add ");
