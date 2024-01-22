@@ -54,6 +54,7 @@ print("START: Immersive Engineering: Crusher : Add");
             //sugar cane
                 mods.immersiveengineering.Crusher.addRecipe(gt_chad * 2, <ore:sugarcane> * 3, 1600);
             //paper
+                mods.immersiveengineering.Crusher.addRecipe(gt_chad, <ore:paper>, 1600);
             //book
     }
 
