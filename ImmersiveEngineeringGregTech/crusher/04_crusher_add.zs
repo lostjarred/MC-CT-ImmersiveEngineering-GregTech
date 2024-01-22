@@ -55,7 +55,8 @@ print("START: Immersive Engineering: Crusher : Add");
                 mods.immersiveengineering.Crusher.addRecipe(gt_chad * 2, <ore:sugarcane> * 3, 1600);
             //paper
                 mods.immersiveengineering.Crusher.addRecipe(gt_chad, <ore:paper>, 1600);
-            //book
+            //books
+                mods.immersiveengineering.Crusher.addRecipe(gt_chad * 3, <ore:craftingBook>, 1600);
     }
 
     add_ingot_dust_recipes();
