@@ -57,6 +57,9 @@ print("START: Immersive Engineering: Crusher : Add");
                 mods.immersiveengineering.Crusher.addRecipe(gt_chad, <ore:paper>, 1600);
             //books
                 mods.immersiveengineering.Crusher.addRecipe(gt_chad * 3, <ore:craftingBook>, 1600);
+        //wood pulp
+            val gt_woodpulp = <gregtech:meta_dust:1617>;
+            mods.immersiveengineering.Crusher.addRecipe(gt_woodpulp * 6, <ore:logWood>, 1600);
     }
 
     add_ingot_dust_recipes();
