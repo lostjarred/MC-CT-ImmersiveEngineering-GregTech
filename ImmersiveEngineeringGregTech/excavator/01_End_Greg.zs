@@ -1,4 +1,4 @@
-#priority 900
+#priority 1900
 
 print("START: Immersive Engineering Excavator Script:01 End Gregtech");
 /*
