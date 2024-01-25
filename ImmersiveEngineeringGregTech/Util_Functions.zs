@@ -1,4 +1,4 @@
-#priority 800
+#priority 1800
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDict;
