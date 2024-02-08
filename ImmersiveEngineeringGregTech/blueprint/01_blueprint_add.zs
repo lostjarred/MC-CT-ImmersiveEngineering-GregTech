@@ -77,6 +77,11 @@ print("START: Immersive Engineering : Blueprint : add ");
         mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gttinrotor,
                 [<ore:plateTin> * 4, <ore:screwTin>, <ore:ringTin>]
         );
+    //tin screw
+        val gttinscrew = <gregtech:meta_screw:112>
+        mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gttinscrew,
+                [<ore:boltTin> * 2]
+        );
 
 
 print("END: Immersive Engineering : Blueprint : add ");
