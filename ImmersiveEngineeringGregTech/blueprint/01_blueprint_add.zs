@@ -72,6 +72,11 @@ print("START: Immersive Engineering : Blueprint : add ");
         mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtrubberring,
                 [<ore:plateRubber>]
         );
+    //tin rotor
+        val gttinrotor = <gregtech:meta_rotor:112>
+        mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gttinrotor,
+                [<ore:plateTin> * 4, <ore:screwTin>, <ore:ringTin>]
+        );
 
 
 print("END: Immersive Engineering : Blueprint : add ");
