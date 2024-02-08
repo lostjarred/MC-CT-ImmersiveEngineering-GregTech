@@ -68,19 +68,24 @@ print("START: Immersive Engineering : Blueprint : add ");
                 [<ore:stickSteel> * 8]
         );
     //rubber ring
-        val gtrubberring = <gregtech:meta_ring:1068>
+        val gtrubberring = <gregtech:meta_ring:1068>;
         mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtrubberring,
                 [<ore:plateRubber>]
         );
     //tin rotor
-        val gttinrotor = <gregtech:meta_rotor:112>
+        val gttinrotor = <gregtech:meta_rotor:112>;
         mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gttinrotor,
                 [<ore:plateTin> * 4, <ore:screwTin>, <ore:ringTin>]
         );
     //tin screw
-        val gttinscrew = <gregtech:meta_screw:112>
+        val gttinscrew = <gregtech:meta_screw:112>;
         mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gttinscrew,
                 [<ore:boltTin> * 2]
+        );
+    //tin bolt
+        val gttinbolt = <gregtech:meta_bolt:112>;
+        mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gttinbolt * 2,
+                [<ore:stickTin>]
         );
 
 
