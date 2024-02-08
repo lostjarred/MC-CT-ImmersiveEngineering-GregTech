@@ -67,5 +67,11 @@ print("START: Immersive Engineering : Blueprint : add ");
         mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtsteelframeboc * 2,
                 [<ore:stickSteel> * 8]
         );
+    //rubber ring
+        val gtrubberring = <gregtech:meta_ring:1068>
+        mods.immersiveengineering.Blueprint.addRecipe(lvblueprint, gtrubberring,
+                [<ore:plateRubber>]
+        );
+
 
 print("END: Immersive Engineering : Blueprint : add ");
